@@ -1,5 +1,9 @@
 # MorphoID
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23150000.svg)](https://doi.org/10.5281/zenodo.23150000)
+
+Frozen v1.0.0 archive: https://doi.org/10.5281/zenodo.23150000
+
 MorphoID audits the conditional predictive identifiability of molecular state from registered histology. This frozen research release contains analysis code, derived de-identified regional features, full-precision results and figure source data for the H&E–Xenium pulmonary fibrosis pilot.
 
 ## Frozen scientific scope
