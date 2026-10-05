@@ -1,0 +1,5 @@
+target	n_regions	n_sections	n_donors	n_classes	balanced_accuracy	macro_auroc	bootstrap_95ci_low	bootstrap_95ci_high	unseen_test_classes_across_folds	n_unseen_test_classes	outer_group	model	variant	risk
+TMA	12260	26	19	4	0.5645833333333333	0.8010760073260073	0.3789434523809524	0.7291666666666666		0	donor_id	section mean of allowed 150-um region color features; standardized multinomial logistic, C=1, class_weight=balanced	original	HIGH
+disease	12260	26	19	2	0.9391025641025641	0.9551282051282052	0.8388888888888889	1.0		0	donor_id	section mean of allowed 150-um region color features; standardized multinomial logistic, C=1, class_weight=balanced	original	HIGH
+TMA	12144	26	19	4	0.5645833333333333	0.7897550366300365	0.3789434523809524	0.7291666666666666		0	donor_id	section mean of allowed 150-um region color features; standardized multinomial logistic, C=1, class_weight=balanced	common	HIGH
+disease	12144	26	19	2	0.9391025641025641	0.9551282051282052	0.8388888888888889	1.0		0	donor_id	section mean of allowed 150-um region color features; standardized multinomial logistic, C=1, class_weight=balanced	common	HIGH

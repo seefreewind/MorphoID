@@ -1,0 +1,4 @@
+target	pre_color_eligible_regions	pre_color_eligible_donors	currently_complete_color_eligible_regions	currently_complete_color_eligible_donors	universe_status
+epithelial	3221	19	3219	19	NOT_FROZEN_NO_SILENT_EXCLUSION
+fibroblast	4879	19	4869	19	NOT_FROZEN_NO_SILENT_EXCLUSION
+macrophage	2664	19	2661	19	NOT_FROZEN_NO_SILENT_EXCLUSION

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="367.2pt" viewBox="0 0 518.740157 367.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-04T22:39:39.914040</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 367.2 
+L 518.740157 367.2 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 17.844661 90.279792 
+L 153.702709 90.279792 
+Q 157.728132 90.279792 157.728132 87.43032 
+L 157.728132 30.44088 
+Q 157.728132 27.591408 153.702709 27.591408 
+L 17.844661 27.591408 
+Q 13.819238 27.591408 13.819238 30.44088 
+L 13.819238 87.43032 
+Q 13.819238 90.279792 17.844661 90.279792 
+z
+" clip-path="url(#p8cbe4970bc)" style="fill: #f2f4f7; stroke: #64748b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 188.925165 90.279792 
+L 324.783213 90.279792 
+Q 328.808636 90.279792 328.808636 87.43032 
+L 328.808636 30.44088 
+Q 328.808636 27.591408 324.783213 27.591408 
+L 188.925165 27.591408 
+Q 184.899742 27.591408 184.899742 30.44088 
+L 184.899742 87.43032 
+Q 184.899742 90.279792 188.925165 90.279792 
+z
+" clip-path="url(#p8cbe4970bc)" style="fill: #f2f4f7; stroke: #64748b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 360.005669 90.279792 
+L 495.863717 90.279792 
+Q 499.88914 90.279792 499.88914 87.43032 
+L 499.88914 30.44088 
+Q 499.88914 27.591408 495.863717 27.591408 
+L 360.005669 27.591408 
+Q 355.980246 27.591408 355.980246 30.44088 
+L 355.980246 87.43032 
+Q 355.980246 90.279792 360.005669 90.279792 
+z
+" clip-path="url(#p8cbe4970bc)" style="fill: #f2f4f7; stroke: #64748b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 27.90822 218.506032 
+L 234.211181 218.506032 
+Q 238.236605 218.506032 238.236605 215.65656 
+L 238.236605 115.92504 
+Q 238.236605 113.075568 234.211181 113.075568 
+L 27.90822 113.075568 
+Q 23.882797 113.075568 23.882797 115.92504 
+L 23.882797 215.65656 
+Q 23.882797 218.506032 27.90822 218.506032 
+z
+" clip-path="url(#p8cbe4970bc)" style="fill: #f2f4f7; stroke: #64748b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 284.528976 218.506032 
+L 490.831937 218.506032 
+Q 494.857361 218.506032 494.857361 215.65656 
+L 494.857361 115.92504 
+Q 494.857361 113.075568 490.831937 113.075568 
+L 284.528976 113.075568 
+Q 280.503553 113.075568 280.503553 115.92504 
+L 280.503553 215.65656 
+Q 280.503553 218.506032 284.528976 218.506032 
+z
+" clip-path="url(#p8cbe4970bc)" style="fill: #f2f4f7; stroke: #64748b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 27.90822 346.732272 
+L 234.211181 346.732272 
+Q 238.236605 346.732272 238.236605 343.8828 
+L 238.236605 251.27496 
+Q 238.236605 248.425488 234.211181 248.425488 
+L 27.90822 248.425488 
+Q 23.882797 248.425488 23.882797 251.27496 
+L 23.882797 343.8828 
+Q 23.882797 346.732272 27.90822 346.732272 
+z
+" clip-path="url(#p8cbe4970bc)" style="fill: #f2f4f7; stroke: #64748b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 284.528976 346.732272 
+L 490.831937 346.732272 
+Q 494.857361 346.732272 494.857361 343.8828 
+L 494.857361 251.27496 
+Q 494.857361 248.425488 490.831937 248.425488 
+L 284.528976 248.425488 
+Q 280.503553 248.425488 280.503553 251.27496 
+L 280.503553 343.8828 
+Q 280.503553 346.732272 284.528976 346.732272 
+z
+" clip-path="url(#p8cbe4970bc)" style="fill: #f2f4f7; stroke: #64748b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="259.370079" y="12.63168" transform="rotate(-0 259.370079 12.63168)">What does morphology add beyond C + N + Z?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(66.238568 47.962543)">Histology</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(43.796302 61.393725)">X: fixed morphology</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(55.40931 74.764789)">representation</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(219.100595 48.906606)">Measured context</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(225.440361 61.449389)">C: composition</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(205.09997 74.767016)">N: neighborhood/context</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(382.523209 47.962543)">Target and covariates</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(386.477584 61.393725)">Y: predefined target</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(373.816607 74.82268)">Z: prespecified covariates</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(67.16849 141.558007)">Conditional model comparison</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(85.792201 155.81747)">M0 = Z     M1 = C + Z</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(68.36638 169.188534)">M2 = C + N + Z     M3 = X + Z</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(89.877201 182.564052)">M4 = C + N + Z + X</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(82.501341 194.995507)">ΔR² = R²(M4) − R²(M2)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(336.470261 135.757533)">Cross-fitted residual test</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(316.050457 148.188988)">Training-side grouped cross-fitting</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(302.941941 161.562279)">M2 out-of-fold residuals → X-only model</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(307.862644 174.935571)">Test residual = Y − M2(test prediction)</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(345.443308 189.237338)">Held-out residual R²</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(331.709129 202.626215)">No full-data residualization</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(81.424427 280.86324)">Technical shortcut audit</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(90.666146 294.292195)">Stain normalization</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(109.678763 306.723651)">Grayscale</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(84.070326 320.152606)">Color / spatial controls</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(327.475691 273.232532)">Independent-unit uncertainty</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(344.646199 286.663714)">Grouped resampling</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(327.73991 299.979114)">Repeated grouped partitions</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(348.875183 314.354359)">Refit unit omission</text>
+    <text style="font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(334.088582 326.783587)">Inference-sensitivity audit</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 88.289575 92.993086 
+Q 88.289575 101.677953 88.289575 109.356589 
+" style="fill: none; stroke: #64748b; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 90.189575 105.556589 
+L 88.289575 109.356589 
+L 86.389575 105.556589 
+" style="fill: none; stroke: #64748b; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 259.370079 92.993086 
+Q 259.370079 101.677953 259.370079 109.356589 
+" style="fill: none; stroke: #64748b; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 261.270079 105.556589 
+L 259.370079 109.356589 
+L 257.470079 105.556589 
+" style="fill: none; stroke: #64748b; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 430.450583 92.993086 
+Q 430.450583 101.677953 430.450583 109.356589 
+" style="fill: none; stroke: #64748b; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 432.350583 105.556589 
+L 430.450583 109.356589 
+L 428.550583 105.556589 
+" style="fill: none; stroke: #64748b; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 241.242896 165.7908 
+Q 259.368393 165.7908 276.487659 165.7908 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 272.687659 163.8908 
+L 276.487659 165.7908 
+L 272.687659 167.6908 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="259.370079" y="237.0276" transform="rotate(-0 259.370079 237.0276)">Interpretation safeguards</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 133.575591 221.218457 
+Q 133.575591 233.4648 133.575591 244.704912 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 135.475591 240.904912 
+L 133.575591 244.704912 
+L 131.675591 240.904912 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 385.164567 221.218457 
+Q 385.164567 233.4648 385.164567 244.704912 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 387.064567 240.904912 
+L 385.164567 244.704912 
+L 383.264567 240.904912 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8cbe4970bc">
+   <rect x="7.781102" y="5.508" width="503.177953" height="356.184"/>
+  </clipPath>
+ </defs>
+</svg>

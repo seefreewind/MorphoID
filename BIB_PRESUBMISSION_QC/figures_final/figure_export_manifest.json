@@ -1,0 +1,57 @@
+[
+  {
+    "figure": "Figure1_MorphoID_Framework",
+    "width_mm": 183,
+    "height_mm": 129.54,
+    "raster_dpi": 601,
+    "font_floor_pt": 9.5,
+    "editable": "SVG text elements",
+    "contract": "General conditional protocol; arrows are workflow, not causal edges. No cohort-specific counts.",
+    "new_estimates": false,
+    "resampling": false
+  },
+  {
+    "figure": "Figure2_Cohort_Shortcuts",
+    "width_mm": 183,
+    "height_mm": 142.23999999999998,
+    "raster_dpi": 601,
+    "font_floor_pt": 9.5,
+    "editable": "SVG text elements",
+    "contract": "Distinct classification tasks grouped by disease vs technical identity; no chance values inferred.",
+    "new_estimates": false,
+    "resampling": false
+  },
+  {
+    "figure": "Figure3_Model_Comparison",
+    "width_mm": 183,
+    "height_mm": 91.44,
+    "raster_dpi": 601,
+    "font_floor_pt": 9.5,
+    "editable": "SVG text elements",
+    "contract": "Five independent fixed estimates per target, no M2\u2013M3 connectivity or invented confidence intervals.",
+    "new_estimates": false,
+    "resampling": false
+  },
+  {
+    "figure": "Figure4_Increment_Residual",
+    "width_mm": 183,
+    "height_mm": 99.05999999999999,
+    "raster_dpi": 601,
+    "font_floor_pt": 9.5,
+    "editable": "SVG text elements",
+    "contract": "Existing adjusted point estimates and fixed-OOF donor-block intervals, separate BH families, n=19.",
+    "new_estimates": false,
+    "resampling": false
+  },
+  {
+    "figure": "Figure5_Shortcut_Controls",
+    "width_mm": 183,
+    "height_mm": 96.52,
+    "raster_dpi": 601,
+    "font_floor_pt": 9.5,
+    "editable": "SVG text elements",
+    "contract": "Augmented raw/Macenko/gray M4 separated from standalone color/coordinate controls; no new uncertainty.",
+    "new_estimates": false,
+    "resampling": false
+  }
+]

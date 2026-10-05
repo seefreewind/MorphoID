@@ -1,0 +1,9 @@
+{
+  "verdict": "HOLD_INFERENCE_INSTABILITY",
+  "external_validation_authorized": "NO",
+  "positive_stable_targets": [],
+  "n_extreme_donors": 19,
+  "highest_leverage_donor": "VUILD106",
+  "next_phase": "Authorized Phase1I finite-donor inference robustness audit; external validation remains unauthorized.",
+  "decision_status": "HUMAN_AUTHORIZED"
+}

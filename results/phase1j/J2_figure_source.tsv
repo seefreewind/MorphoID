@@ -1,0 +1,17 @@
+candidate_id	Independent donors	Same HE section	Frozen genes	C/N structure	Z structure	150um admission	Overall admission
+VANNAN_TMA5	+	?	+	?	+	?	?
+CHUV_XENIUM	+	+	?	?	x	x	x
+COPD_XENIUM	+	?	x	?	x	?	x
+COSMX_COVID22	+	+	?	?	x	?	?
+MAYR_IPF	+	x	?	?	+	x	x
+PF_VISIUM8	+	+	?	x	+	?	x
+ADULT_MERFISH6	+	?	?	?	x	?	?
+NSCLC_MERFISH46	+	?	?	?	x	?	?
+NEUMAP_HD8	+	+	?	?	x	?	?
+EGFR_HD4	+	+	?	?	x	?	?
+ASTHMA_XENIUM	?	x	?	?	x	x	x
+AML_XENIUM	?	?	?	?	x	?	?
+COSMX_COVID6	+	?	?	?	x	?	?
+VENDOR_COSMX3	+	?	?	?	x	?	x
+VANNAN_DERIVED	x	+	+	+	+	+	x
+SINGLE_DONOR_DEMO	x	?	?	?	?	?	x

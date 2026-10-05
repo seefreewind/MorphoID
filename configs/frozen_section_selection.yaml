@@ -1,0 +1,12 @@
+default: include_all_26_admitted_sections
+outer_group: donor_id
+permanent_exclusions:
+  VUILD105MA1: FIXED_COORDINATE_SUPPORT_FAILURE
+  VUILD48LA1: FIXED_COORDINATE_SUPPORT_FAILURE
+future_technical_exclusion_rule:
+  - section_file_missing_after_retry
+  - SHA256_mismatch_against_frozen_manifest
+  - image_decode_failure_after_retry
+  - reproducible_failure_of_frozen_fixed_coordinate_QC
+  - never_exclude_for_image_quality_rank_or_model_performance
+paired_sections: retain_all_and_keep_within_same_outer_donor_fold

@@ -1,0 +1,3 @@
+disease	excluded	retained	total	excluded_fraction	share_of_all_excluded
+control	25	2367	2392	0.010451505016722408	0.21551724137931033
+pulmonary_fibrosis	91	9777	9868	0.00922172679367653	0.7844827586206896

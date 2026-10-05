@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this frozen software and derived-data release when reusing it."
+title: "MorphoID conditional identifiability audit"
+version: 1.0.0
+type: software
+repository-code: "https://github.com/seefreewind/MorphoID"
+authors:
+  - family-names: Lin
+    given-names: Da
+    affiliation: "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China"
+  - family-names: Chen
+    given-names: Ying
+    affiliation: "Wenzhou Medical University, Wenzhou, China"
+  - family-names: Liu
+    given-names: Yue
+    affiliation: "Wenzhou Medical University, Wenzhou, China"
+  - family-names: Zhang
+    given-names: Yu
+    affiliation: "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China"
+license: MIT

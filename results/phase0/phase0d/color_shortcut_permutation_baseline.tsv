@@ -1,0 +1,4 @@
+target	replicates	observed_balanced_accuracy	null_mean	null_95pct	permutation_p	permutation_unit
+TMA	100	0.5645833333333333	0.24458333333333335	0.4070833333333333	0.009900990099009901	whole donor block, stratified by number of sections
+run	100	0.6392045454545454	0.45690340909090915	0.6380681818181817	0.0594059405940594	whole donor block, stratified by number of sections
+disease	100	0.9391025641025641	0.5091346153846154	0.7375	0.009900990099009901	whole donor block, stratified by number of sections

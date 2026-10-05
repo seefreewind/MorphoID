@@ -1,0 +1,6 @@
+# Fixed project-wide seeds. Do not change after outcome inspection.
+python: 20260927
+numpy: 20260927
+pytorch: 20260927
+bootstrap: 20260927
+cross_validation: 20260927

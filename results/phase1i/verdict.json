@@ -1,0 +1,36 @@
+{
+  "phase1i_verdict": "HOLD_FINITE_DONOR_PRECISION",
+  "external_validation_authorized": "NO",
+  "finite_donor_precision_limitation": "HIGH",
+  "primary_point_estimates_changed": false,
+  "original_models_refit": false,
+  "optional_precision_curve": "NOT_RUN",
+  "BCa_all_valid": false,
+  "n_donors": 19,
+  "n_targets": 3,
+  "methods_with_direction_conflict": [
+    {
+      "target": "epithelial_injury",
+      "effect": "Residual_R2"
+    }
+  ],
+  "effects_with_support_uncertain_switching": [
+    {
+      "target": "epithelial_injury",
+      "effect": "Residual_R2"
+    },
+    {
+      "target": "fibroblast_activation",
+      "effect": "DeltaR2_morph"
+    },
+    {
+      "target": "macrophage_inflammatory",
+      "effect": "DeltaR2_morph"
+    },
+    {
+      "target": "macrophage_inflammatory",
+      "effect": "Residual_R2"
+    }
+  ],
+  "recommended_next_phase": "Separate pre-registered independent-donor precision/transportability design, subject to human authorization. No external analysis performed."
+}

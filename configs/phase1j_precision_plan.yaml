@@ -1,0 +1,28 @@
+phase: PHASE1J_PLANNING_ONLY
+targets: [epithelial_injury, fibroblast_activation, macrophage_inflammatory]
+effects: [DeltaR2_morph, Residual_R2]
+total_donor_grid: [19, 24, 29, 34, 39, 49, 59]
+integer_grid: [19, 59]
+maximum_added_donors: 40
+width_ratios: [0.80, 0.67, 0.50]
+minimum_probability: 0.80
+seed: 31001
+outer_projections: 1000
+inner_oof_bootstraps: 500
+baseline_inner_oof_bootstraps: 10000
+design: Retain each original donor once; append hypothetical donors sampled uniformly from the joint original donor empirical distribution. Same draws across all targets/effects; no synthetic favorable donors.
+OOF_method: Conditional prediction-block percentile interval. Outer augmentation composition varies; inner bootstrap samples n whole donor blocks with multiplicities. No training uncertainty. Baseline uses 10000 deterministic draws; planning widths calibrated multiplicatively to the frozen reference CI width by this baseline width, to separate simulation resolution from donor information gain. Raw widths also retained.
+jackknife_method: Empirical refit-pseudovalue dispersion proxy, 2*t_(n-1)*sampleSD/sqrt(n). Original 19 pseudovalues retained once; added pseudovalues sampled with paired donor identities. No assertion that future refits would have these values. Original n19 width reproduced exactly. Center/sign not a design criterion.
+minimum_rule: Report method/effect minima separately. Conservative target minimum requires probability >=0.80 for width<=0.67 current in both effects and both methods, with Wilson95 lower bound>=0.80, and also at every evaluated larger n. Do not enforce monotonicity or extend beyond59. Unattained means PRECISION_RESCUE_NOT_FEASIBLE_AT_PRACTICAL_N under these projections, not proof of impossibility.
+precision_need_rule: Largest maximum frozen jackknife/reference width ratio over the two effects; also report absolute widths. No target family changes.
+invalid_rule: Any nonpositive SST produces invalid draw; >5percent invalid makes that projection unreliable, probabilities use all1000 projections and invalid never counts as success.
+candidate_gate: Metadata feasibility and numerical admission are distinct. Filename registration is evidence of author mapping, not a passing coordinate/tissue/150um QA gate. Unknown required evidence blocks automatic authorization; record pending and action needed.
+significance_planning: NO
+new_model_fitting: NO
+figures:
+  J1: quantitative grid; delta/residual rows and3targets, empirical median widths with10-90percent planning ranges, pseudovalue proxy separately, sqrt(19/n) reference; not sampling confidence bands
+  J2: candidate metadata gate matrix; pass, fail, pending, supportive distinguishable; no biological outcomes
+  backend: python
+  width_mm: 183
+  min_font_pt: 6
+  exports: [SVG, PNG_300dpi]

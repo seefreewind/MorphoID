@@ -1,0 +1,112 @@
+phase: PHASE1H
+seeds:
+- 1001
+- 1002
+- 1003
+- 1004
+- 1005
+- 1006
+- 1007
+- 1008
+- 1009
+- 1010
+- 1011
+- 1012
+- 1013
+- 1014
+- 1015
+- 1016
+- 1017
+- 1018
+- 1019
+- 1020
+- 1021
+- 1022
+- 1023
+- 1024
+- 1025
+- 1026
+- 1027
+- 1028
+- 1029
+- 1030
+- 1031
+- 1032
+- 1033
+- 1034
+- 1035
+- 1036
+- 1037
+- 1038
+- 1039
+- 1040
+- 1041
+- 1042
+- 1043
+- 1044
+- 1045
+- 1046
+- 1047
+- 1048
+- 1049
+- 1050
+n_outer_folds: 5
+split_rule: For each disease independently shuffle sorted donors with seeded RNG;
+  cyclic assignment starting at seeded offset; no outcomes; invalid partitions not
+  replaced.
+repeated_strata:
+- POOLED
+- PF_ONLY
+loo_strata:
+- POOLED
+- PF_ONLY
+- DISEASE_ADJUSTED
+loo_models: Complete frozen ladder and original fixed-embedding shortcut controls,
+  plus strict training-side cross-fit residual; original fold assignments retained
+  after diagnostic deletion.
+primary_influence_stratum: DISEASE_ADJUSTED
+primary_repeat_stratum: POOLED
+bootstrap_replicates: 2000
+moderate_leverage: Not extreme/high and absolute delta influence at or above donor
+  median.
+paired_bad_threshold: Each model donor MAE above its target/stratum donor 75th percentile.
+paired_much_better: M4 MAE at least 25 percent lower than M2 MAE.
+low_variance: Donor target variance at or below target/stratum 10th percentile.
+support_standardization: Training-only donor-equal StandardScaler; no morphology.
+mahalanobis: LedoitWolf covariance of standardized training regions (region-equal
+  covariance); train-only centroid and covariance. Ridge scaling remains unchanged.
+nearest_neighbor: Euclidean standardized distance to nearest other-donor training
+  region; train reference also nearest other-donor training region.
+support_cloud: Nearest-neighbor cloud distance; convex hull infeasible in 32/33 dimensions.
+unsupported_donor: At least 10 percent regions beyond training Mahalanobis 99th percentile.
+strong_support_association: Donor Spearman rho >=0.5 and nominal p<0.05 (diagnostic).
+extrapolation_driven: Strong association; >=50 percent of positive paired SSE gain
+  in unsupported donors; at least one unsupported donor LOO reduces delta >=50 percent
+  relative to full.
+donor_leverage_driven: One or two donors flip sign/qualitative interpretation, either
+  repeated delta or residual sign stability <0.80, without extrapolation criteria.
+stable_null: Both repeated 5-95 percent intervals within [-0.02,0.02], both medians
+  abs<=0.01, full 95 percent bootstrap intervals within [-0.05,0.05], maximum absolute
+  LOO delta/residual influence <=0.02.
+qualitative_interpretation: Pair of delta/residual CI direction (positive/negative/spans
+  zero) and respective BH<0.05 classifications; FDR family three targets within diagnostic
+  stratum, original primary BH only disease-adjusted.
+stable_signal: Delta/residual sign stability >=0.80 in POOLED, no disease-adjusted
+  single-donor interpretation flip, original POOLED delta not <5 or >95 percentile,
+  no extrapolation criteria; external authorization additionally requires positive
+  median delta and positive median residual.
+verdict_priority: 'All positive stable targets: PASS; subset positive stable: SELECTIVE;
+  else extrapolation, donor leverage, stable null majority, then fold instability.
+  NO_GO only simultaneous delta/residual sign stability <0.65, leverage, non-extrapolation
+  and broad repeat interval crossing zero.'
+figure_contract:
+  backend: python
+  archetype: quantitative grid
+  width_mm: 183
+  formats:
+  - svg
+  - png
+  dpi: 300
+  font_floor_pt: 5
+  claim: Distinguish donor influence, support mismatch and partition variability without
+    changing the primary estimand.

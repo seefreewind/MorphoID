@@ -1,0 +1,24 @@
+{
+  "audit_date": "2026-10-03",
+  "verdict": "HOLD_TRANSPORTABILITY",
+  "vannan_extension_new_donors": 16,
+  "vannan_extension_author_registered_new_donors": 13,
+  "vannan_extension_technically_admitted_new_donors": 0,
+  "vannan_extension_verdict": "VANNAN_EXTENSION_INSUFFICIENT",
+  "independent_external_study_sources_screened": 13,
+  "admitted_external_cohorts": 0,
+  "external_validation_authorized": "NO",
+  "augmentation_authorized": "NO",
+  "COPD_missing_frozen_genes": [
+    "COL1A1",
+    "COL1A2",
+    "COL3A1",
+    "ITGB6",
+    "KRT18",
+    "S100A8",
+    "S100A9",
+    "SOX4"
+  ],
+  "no_models_run": true,
+  "no_full_candidate_datasets_downloaded": true
+}

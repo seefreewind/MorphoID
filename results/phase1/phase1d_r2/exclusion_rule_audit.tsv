@@ -1,0 +1,13 @@
+variable	used_in_rule	scientific_role
+image pixels	YES	technical image validity
+crop coordinates	YES	technical image validity
+frozen black threshold	YES	technical image validity
+donor_id	NO	not used in exclusion decision
+disease	NO	not used in exclusion decision
+target score	NO	not used in exclusion decision
+cell composition	NO	not used in exclusion decision
+neighborhood	NO	not used in exclusion decision
+morphology embedding	NO	not used in exclusion decision
+model prediction	NO	not used in exclusion decision
+model error	NO	not used in exclusion decision
+residual	NO	not used in exclusion decision

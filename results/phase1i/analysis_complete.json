@@ -1,0 +1,9 @@
+{
+  "status": "PHASE1I_ANALYSIS_COMPLETE",
+  "completed_at_utc": "2026-10-03T08:34:35.551620+00:00",
+  "n_donors": 19,
+  "balanced_replicates": 10000,
+  "primary_stratum": "DISEASE_ADJUSTED",
+  "hash_gate_pass": true,
+  "original_models_refit": false
+}

@@ -1,0 +1,7 @@
+# Release scope and provenance
+
+Included: original computational code, registered configurations, derived microregion matrix and features, de-identified donor identifiers already present in the public source, derived CPU embeddings, OOF and donor-level estimates, source tables and final vector figures.
+
+Excluded: upstream raw images, molecular RDS objects, Phikon-v2 weights, TIFF temporary files, repeated/LOO checkpoint caches, account credentials, private notes, user messages, manuscript/cover-letter drafts, AppleDouble sidecars and .git histories. Historical report/config status is evidence of the staged study and may refer to earlier HOLD decisions. The accepted final status is STOP_FINITE_DONOR_LIMITATION_ACCEPTED; no new rescue analysis is part of this release.
+
+Original frozen scientific files were copied bytewise. release_files.tsv records their hashes. README, documentation and repository metadata describe this release and do not amend the scientific inputs. Source identifiers/access routes are given in README. Original project code is licensed under MIT (LICENSE). Phikon-v2-derived embeddings and result outputs are shared under the Owkin non-commercial research license, including its share-alike conditions (licenses/OWKIN_PHIKON_V2_LICENSE.pdf). These outputs are not granted under CC BY or MIT. Public availability does not remove the upstream restrictions. Raw images and model weights are not redistributed. No raw patient identifiers are included.

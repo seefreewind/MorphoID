@@ -1,0 +1,8 @@
+{
+  "status": "PHASE1H_ANALYSIS_COMPLETE",
+  "loo_donors": 19,
+  "repeated_seeds": 50,
+  "n_repeated_target_strata": 300,
+  "n_invalid": 0,
+  "scientific_inputs_unchanged": true
+}

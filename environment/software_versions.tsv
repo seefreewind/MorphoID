@@ -1,0 +1,25 @@
+component	version	role	date_checked	notes
+Python system	3.9.6	available system interpreter	2026-09-27	Not used for image registration analysis
+Python project	3.11.15	project runtime	2026-09-27	uv-managed at morphoid/.venv
+Git	2.54.0	version control	2026-09-27	Project repository initialized after Phase 0A/0B audit
+Analysis source commit	f06c5a9d7954935ae3b2b6aa7210d855e03b05b8	Exact code/config/report snapshot used for Phase 0C outputs	2026-09-27	Source scripts and QC artifacts are frozen in this commit; later provenance-note edits do not change the analysis code
+macOS	Darwin 25.4.0 arm64	operating system	2026-09-27	Local Apple Silicon machine
+uv	installed	project environment manager	2026-09-27	Executable at /Users/zy/.codex/tools/bin/uv
+NumPy	2.4.6	array operations	2026-09-27	Phase 0C environment
+pandas	3.0.6	metadata handling	2026-09-27	Phase 0C environment
+PyArrow	25.0.1	Parquet reader	2026-09-27	Phase 0C environment
+h5py	3.16.0	Read 10x Xenium cell feature matrix HDF5 metadata and counts	2026-09-27	Phase 0C/0B availability verification
+Pillow	12.3.0	image handling	2026-09-27	Phase 0C environment
+Tifffile	2026.3.3	OME-TIFF metadata and reading	2026-09-27	Phase 0C environment
+imagecodecs	2026.3.6	JPEG 2000 codec for Xenium OME-TIFF image decoding	2026-09-27	Phase 0C environment
+OpenCV headless	5.0.0.93	image registration metrics	2026-09-27	Phase 0C environment
+OpenSlide Python	1.4.6	NDPI whole-slide reading	2026-09-27	Phase 0C environment
+OpenSlide binary	4.0.1.2	NDPI native library	2026-09-27	bundled in project environment
+aicspylibczi	4.0.1	Zeiss CZI metadata, scene, and mosaic image extraction	2026-09-27	Phase 0C-S only; does not assign patient identity from scan scene order
+openpyxl	3.1.5	Read-only parsing of Bilous supplementary sample and panel-gene workbook	2026-09-27	Phase 0C-S registry generation
+PyTorch	NOT_INSTALLED	Not used	2026-09-27	Phase 1 modeling was held behind the Phase 0 exit gate
+scikit-learn	NOT_INSTALLED	Not used	2026-09-27	No predictive models were fit in Phase 0
+scanpy	NOT_INSTALLED	Not used	2026-09-27	No single-cell expression analysis was run in Phase 0
+GeoPandas	NOT_INSTALLED	Not used	2026-09-27	No geographic/vector spatial operations were needed in Phase 0
+Pathology encoder	NOT_SELECTED	Not used	2026-09-27	Phase 1 was not started; no checkpoint was downloaded
+MinerU	installed	PDF parsing runtime	2026-09-27	Available at /Users/zy/.codex/tools/mineru/bin/mineru; no local PDF input required in Phase 0

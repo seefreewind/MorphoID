@@ -1,0 +1,7 @@
+target	effect	direction_consensus	inference_consensus	support_uncertain_switching	FDR_switching	opposing_supported_CI_methods	method_point_direction_conflict	primary_supported_CI_methods	valid_BCa
+epithelial_injury	DeltaR2_morph	DIRECTION_CONSISTENT	INFERENCE_ROBUST	False	False	False	False	0	True
+epithelial_injury	Residual_R2	DIRECTION_MIXED	INFERENCE_DIRECTION_CONFLICT	True	True	False	True	3	True
+fibroblast_activation	DeltaR2_morph	DIRECTION_CONSISTENT	INFERENCE_METHOD_SENSITIVE	True	False	False	False	2	True
+fibroblast_activation	Residual_R2	DIRECTION_MIXED	INFERENCE_METHOD_SENSITIVE	False	False	False	False	0	False
+macrophage_inflammatory	DeltaR2_morph	DIRECTION_CONSISTENT	INFERENCE_METHOD_SENSITIVE	True	False	False	False	2	True
+macrophage_inflammatory	Residual_R2	DIRECTION_CONSISTENT	INFERENCE_METHOD_SENSITIVE	True	False	False	False	3	True

@@ -1,0 +1,4 @@
+target	eligible_regions	eligible_donors	eligible_sections	pre_amendment_regions	pre_amendment_donors	difference_vs_pre_amendment	lineage_min_cells
+epithelial injury	3219	19	26	3221	19	-2	20
+fibroblast activation	4869	19	26	4879	19	-10	20
+macrophage inflammatory	2661	19	26	2664	19	-3	20

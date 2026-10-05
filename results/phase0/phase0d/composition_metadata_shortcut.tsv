@@ -1,0 +1,6 @@
+target	predictors	n_sections	n_donors	n_classes	class_counts_sections	balanced_accuracy	macro_auroc	bootstrap_95ci_low	bootstrap_95ci_high	unseen_test_classes_across_folds	outer_group	inference_unit	interpretation
+TMA	ground-truth 15-lineage section-aggregate composition C only	26	19	4	1:7;2:7;3:4;4:8	0.41041666666666665		0.19997395833333334	0.6146070075757574		donor_id	donor_id	
+run	ground-truth 15-lineage section-aggregate composition C only	26	19	2	1:15;2:11	0.5085227272727273		0.3009797494172494	0.7139393939393937		donor_id	donor_id	
+disease	ground-truth 15-lineage section-aggregate composition C only	26	19	2	control:7;pulmonary_fibrosis:19	1.0		1.0	1.0		donor_id	donor_id	
+affected_status	ground-truth 15-lineage section-aggregate composition C only	26	19	3	control:7;less_affected:7;more_affected:12	0.8474945533769063		0.7047564935064936	0.9555555555555556		donor_id	donor_id	
+donor_id	ground-truth composition C only	26	19	19						all held-out donors	donor_id	donor_id	NOT_ESTIMABLE: donor identity is held out by design

@@ -1,0 +1,5 @@
+# Data and result licensing
+
+Original project code is licensed under MIT (LICENSE). Phikon-v2-derived embeddings and result outputs are shared under the Owkin non-commercial research license, including its share-alike conditions (licenses/OWKIN_PHIKON_V2_LICENSE.pdf). These outputs are not granted under CC BY or MIT. Public availability does not remove the upstream restrictions. Raw images and model weights are not redistributed.
+
+Owkin is the creator/licensor of Phikon-v2. Official source: https://huggingface.co/owkin/phikon-v2 ; revision 2ae989a9c40cffaa27f0a6cb29cc94d1d6f9a5fd. The complete upstream license is preserved bytewise in licenses/OWKIN_PHIKON_V2_LICENSE.pdf. Its definitions and Sections 2(a), 3(a), and 3(c) govern Results, non-commercial use and onward sharing. The license is restricted to eligible non-profit entities and requires prior Owkin approval for other use of Results. Retain upstream notices and attribution. Independent source data and dependencies remain subject to their provider terms; no broader rights are granted here.

@@ -1,0 +1,9 @@
+variable	known_at_inference	biological_or_technical	risk_of_absorbing_signal	included_primary	included_sensitivity	justification
+normalized_x	YES	anatomical_position	MODERATE	YES	YES	fixed image coordinates are available at inference; included to control systematic within-section position
+normalized_y	YES	anatomical_position	MODERATE	YES	YES	paired with normalized x as a minimal positional nuisance adjustment
+disease_status	YES_IF_TASK_IS_CONDITIONED_ON_COHORT_LABEL	biological	HIGH	YES_FOR_DISEASE_ADJUSTED_ESTIMAND	YES	controls pooled PF/control differences; mandatory PF-only analysis remains separate
+affected_status	YES_FOR_SECTION_METADATA	biological_local_severity	VERY_HIGH	NO	YES	local severity may be part of the morphology signal; report as sensitivity only
+TMA	YES	technical_batch_proxy	HIGH	NO	YES	audit indicates disease/TMA association; adjust only as sensitivity if overlap supports within-donor-held-out comparison
+run	YES	technical_batch_proxy	HIGH	NO	YES	run is not exactly aliased with TMA/disease; retain for sensitivity rather than loading primary Z
+collection_center	YES	source	HIGH	NO	NO	strongly coupled to disease and duplicates donor/site identity; report descriptive shortcut only
+scanner	NO_PER_IMAGE	technical	UNRESOLVED	NO	NO	only publication-level scanner statement found, with no variation or verified per-image metadata

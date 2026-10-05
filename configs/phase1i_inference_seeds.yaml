@@ -1,0 +1,85 @@
+phase: 1I
+targets:
+- epithelial_injury
+- fibroblast_activation
+- macrophage_inflammatory
+stratum: DISEASE_ADJUSTED
+n_donors: 19
+balanced_replicates: 10000
+balanced_seeds:
+  epithelial_injury: 21001
+  fibroblast_activation: 21002
+  macrophage_inflammatory: 21003
+reference_replicates: 2000
+reference_seed_policy: Reuse original SEED+100*target_index+stratum_index; residual
+  +3000
+primary_point_estimates: original full-cohort estimators; unchanged
+jackknife_ci: bias-corrected pseudovalue mean +/- t_18(.975)*SE; original full point
+  retained separately
+standardized_influence: (pseudovalue_i - mean_pseudovalue)/sample_SD_pseudovalues
+studentized_influence: (pseudovalue_i - mean of other 18 pseudovalues) / (SD of other18
+  * sqrt(19/18))
+donor_equal_summaries:
+- mean
+- median
+losses:
+- SSE_GAIN
+- MAE_GAIN
+tie_rule: Exact zero only; no posthoc tolerance
+wilcoxon: two-sided, wilcox zero method, deterministic exact conditional sign enumeration
+  of average ranks
+bca_acceleration: Delete-1 frozen OOF-block estimates, matched to frozen OOF-block
+  bootstrap. Refit-jackknife acceleration also recorded as separate diagnostic, never
+  substituted.
+bca_invalid_limit: 0.05
+bca_degeneracy: Undefined/nonfinite acceleration or bias correction, fewer than 2
+  unique bootstrap estimates, invalid fraction >.05
+bca_endpoint_instability: Adjusted tail fewer than 10 expected replicates OR four
+  deterministic 2500-replicate chunks have maximum endpoint deviation >25% full BCa
+  width OR nonpositive adjustment denominator
+classification: 'CI excludes zero: POSITIVE_SUPPORT/NEGATIVE_SUPPORT; otherwise UNCERTAIN.
+  CI-free sign/Wilcoxon rows use two-sided p<.05 plus paired-loss direction. FDR classification
+  separately recorded. BCa has no manufactured p value.'
+multiplicity: Each method x effect x loss is a distinct three-target family. Reference
+  FDR copied unchanged; approximation flags retained. No min-p pooling.
+direction_consensus: All full/jackknife/refit-LOO-majority/POOLED partition median/donor-equal
+  SSE mean and median directions identical, with >=.8 LOO and partition same-direction
+  fractions. MAE companion checked separately.
+effect_inference_consensus: Opposing nonzero method point directions or donor-equal
+  summaries => INFERENCE_DIRECTION_CONFLICT; otherwise support-vs-uncertain or FDR
+  support switching => INFERENCE_METHOD_SENSITIVE; else INFERENCE_ROBUST
+target_rule: Direction-mixed delta or residual => DIRECTION_UNSTABLE. Stable positive/negative
+  delta with >=2 supported CI methods and no inference/FDR switching => ROBUST_POSITIVE/NEGATIVE
+  (positive also requires compatible positive residual). Otherwise direction-stable
+  delta => POSITIVE/NEGATIVE_BUT_INFERENCE_SENSITIVE. ROBUST_NULL requires all valid
+  primary CIs inside +/-.05 and all primary estimates abs<=.01, with no direction
+  conflict.
+precision_near_zero: 0.01
+precision_HIGH: At least 2/6 effect rows have reference or jackknife width / abs(original
+  estimate) >=2, or near-zero original estimate with width>.1
+precision_MODERATE: At least 1/6 such row; else LOW
+stage_rule: Eligible robust positive with all targets robust=>INFERENCE_ROBUST_GO_EXTERNAL_VALIDATION;
+  subset robust with eligible positive=>SELECTIVE_INFERENCE_ROBUSTNESS. NO_GO only
+  opposing supported uncertainty frameworks AND donor-summary/overall direction conflicts.
+  Otherwise HIGH precision with support switching or all-uncertain effects=>HOLD_FINITE_DONOR_PRECISION;
+  remaining sensitivity=>HOLD_INFERENCE_METHOD_SENSITIVITY.
+donor_dependence: For an external-positive candidate, <=2 refit LOO deletions flipping
+  that candidate sign/CI/FDR interpretation blocks external authorization.
+optional_precision_curve: NOT_RUN; avoid optional scope
+figure_contract:
+  backend: python
+  archetype: quantitative grid
+  width_mm: 183
+  font_floor_pt: 5
+  formats:
+  - editable_svg
+  - png_300dpi
+  PDF: Not generated under explicit user policy
+  claims:
+    I1: Compare frozen delta estimate to donor-level uncertainty constructions without
+      selecting methods
+    I2: Residual inference and its finite-donor precision
+    I3: Show all19 refit donor pseudovalues for both effects
+    I4: Show paired SSE and MAE losses, all19 independent donor points for delta and
+      residual
+    I5: Expose positive/uncertain/negative method agreement for both effects

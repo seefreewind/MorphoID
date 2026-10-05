@@ -1,0 +1,296 @@
+{
+  "checks": {
+    "19_donors_and_3_targets": true,
+    "114_refit_pseudovalues": true,
+    "no_primary_model_refit": true,
+    "60000_balanced_effect_estimates": true,
+    "reference_bootstrap_retained": true,
+    "only_three_targets": true,
+    "source_hashes_unchanged": true,
+    "donor_losses_unit_weight": true,
+    "epithelial_injuryDeltaR2_morph_jackknife_algebra": true,
+    "epithelial_injuryResidual_R2_jackknife_algebra": true,
+    "fibroblast_activationDeltaR2_morph_jackknife_algebra": true,
+    "fibroblast_activationResidual_R2_jackknife_algebra": true,
+    "macrophage_inflammatoryDeltaR2_morph_jackknife_algebra": true,
+    "macrophage_inflammatoryResidual_R2_jackknife_algebra": true,
+    "epithelial_injuryDeltaR2_morphMAE_GAIN_loss_recomputed": true,
+    "epithelial_injuryDeltaR2_morphSSE_GAIN_loss_recomputed": true,
+    "epithelial_injuryResidual_R2MAE_GAIN_loss_recomputed": true,
+    "epithelial_injuryResidual_R2SSE_GAIN_loss_recomputed": true,
+    "fibroblast_activationDeltaR2_morphMAE_GAIN_loss_recomputed": true,
+    "fibroblast_activationDeltaR2_morphSSE_GAIN_loss_recomputed": true,
+    "fibroblast_activationResidual_R2MAE_GAIN_loss_recomputed": true,
+    "fibroblast_activationResidual_R2SSE_GAIN_loss_recomputed": true,
+    "macrophage_inflammatoryDeltaR2_morphMAE_GAIN_loss_recomputed": true,
+    "macrophage_inflammatoryDeltaR2_morphSSE_GAIN_loss_recomputed": true,
+    "macrophage_inflammatoryResidual_R2MAE_GAIN_loss_recomputed": true,
+    "macrophage_inflammatoryResidual_R2SSE_GAIN_loss_recomputed": true,
+    "BALANCED_DONOR_BOOTSTRAPDeltaR2_morphPRIMARY_R2_separate_BH_family": true,
+    "BALANCED_DONOR_BOOTSTRAPResidual_R2PRIMARY_R2_separate_BH_family": true,
+    "BCA_INFERENCE_SENSITIVITYDeltaR2_morphPRIMARY_R2_separate_BH_family": true,
+    "BCA_INFERENCE_SENSITIVITYResidual_R2PRIMARY_R2_separate_BH_family": true,
+    "EXACT_SIGN_TESTDeltaR2_morphMAE_GAIN_separate_BH_family": true,
+    "EXACT_SIGN_TESTDeltaR2_morphSSE_GAIN_separate_BH_family": true,
+    "EXACT_SIGN_TESTResidual_R2MAE_GAIN_separate_BH_family": true,
+    "EXACT_SIGN_TESTResidual_R2SSE_GAIN_separate_BH_family": true,
+    "JACKKNIFE_NORMAL_CIDeltaR2_morphPRIMARY_R2_separate_BH_family": true,
+    "JACKKNIFE_NORMAL_CIResidual_R2PRIMARY_R2_separate_BH_family": true,
+    "WILCOXON_SENSITIVITYDeltaR2_morphMAE_GAIN_separate_BH_family": true,
+    "WILCOXON_SENSITIVITYDeltaR2_morphSSE_GAIN_separate_BH_family": true,
+    "WILCOXON_SENSITIVITYResidual_R2MAE_GAIN_separate_BH_family": true,
+    "WILCOXON_SENSITIVITYResidual_R2SSE_GAIN_separate_BH_family": true,
+    "epithelial_injuryDeltaR2_morph_reference_values_unchanged": true,
+    "epithelial_injuryResidual_R2_reference_values_unchanged": true,
+    "fibroblast_activationDeltaR2_morph_reference_values_unchanged": true,
+    "fibroblast_activationResidual_R2_reference_values_unchanged": true,
+    "macrophage_inflammatoryDeltaR2_morph_reference_values_unchanged": true,
+    "macrophage_inflammatoryResidual_R2_reference_values_unchanged": true,
+    "epithelial_injuryDeltaR2_morphSSE_GAIN_exact_sign_verified": true,
+    "epithelial_injuryDeltaR2_morphSSE_GAIN_signed_rank_verified": true,
+    "epithelial_injuryDeltaR2_morphMAE_GAIN_exact_sign_verified": true,
+    "epithelial_injuryDeltaR2_morphMAE_GAIN_signed_rank_verified": true,
+    "epithelial_injuryResidual_R2SSE_GAIN_exact_sign_verified": true,
+    "epithelial_injuryResidual_R2SSE_GAIN_signed_rank_verified": true,
+    "epithelial_injuryResidual_R2MAE_GAIN_exact_sign_verified": true,
+    "epithelial_injuryResidual_R2MAE_GAIN_signed_rank_verified": true,
+    "fibroblast_activationDeltaR2_morphSSE_GAIN_exact_sign_verified": true,
+    "fibroblast_activationDeltaR2_morphSSE_GAIN_signed_rank_verified": true,
+    "fibroblast_activationDeltaR2_morphMAE_GAIN_exact_sign_verified": true,
+    "fibroblast_activationDeltaR2_morphMAE_GAIN_signed_rank_verified": true,
+    "fibroblast_activationResidual_R2SSE_GAIN_exact_sign_verified": true,
+    "fibroblast_activationResidual_R2SSE_GAIN_signed_rank_verified": true,
+    "fibroblast_activationResidual_R2MAE_GAIN_exact_sign_verified": true,
+    "fibroblast_activationResidual_R2MAE_GAIN_signed_rank_verified": true,
+    "macrophage_inflammatoryDeltaR2_morphSSE_GAIN_exact_sign_verified": true,
+    "macrophage_inflammatoryDeltaR2_morphSSE_GAIN_signed_rank_verified": true,
+    "macrophage_inflammatoryDeltaR2_morphMAE_GAIN_exact_sign_verified": true,
+    "macrophage_inflammatoryDeltaR2_morphMAE_GAIN_signed_rank_verified": true,
+    "macrophage_inflammatoryResidual_R2SSE_GAIN_exact_sign_verified": true,
+    "macrophage_inflammatoryResidual_R2SSE_GAIN_signed_rank_verified": true,
+    "macrophage_inflammatoryResidual_R2MAE_GAIN_exact_sign_verified": true,
+    "macrophage_inflammatoryResidual_R2MAE_GAIN_signed_rank_verified": true,
+    "all19_donor_draws_balanced": true,
+    "five_editable_svg_and_png": true,
+    "I1_delta_inference_comparison_export": true,
+    "I2_residual_inference_comparison_export": true,
+    "I3_jackknife_donor_pseudovalues_export": true,
+    "I4_donor_paired_loss_improvement_export": true,
+    "I5_inference_agreement_export": true
+  },
+  "all_required_checks_pass": true,
+  "figure_exports": [
+    {
+      "file": "I1_delta_inference_comparison.svg",
+      "width_mm": 182.99999983055554,
+      "min_font_pt": 6.0,
+      "editable_text": 24,
+      "png_dpi": 299.9994,
+      "svg_sha256": "8c7f77620b14af5d669868c6d2229e4c6199b0383109ff13ba08e260974360ff",
+      "png_sha256": "eef661e745b5b90c9a3adf016c6725e2c6719992321cc3db26275e261986d774"
+    },
+    {
+      "file": "I2_residual_inference_comparison.svg",
+      "width_mm": 182.99999983055554,
+      "min_font_pt": 6.0,
+      "editable_text": 28,
+      "png_dpi": 299.9994,
+      "svg_sha256": "b461c5648f86c7bb2e7c29f1f8e2b40a0deef74168f918e3c2efb5049e594346",
+      "png_sha256": "b0550641a84c7e19c4e867622352540d77717b29e1c5d9fb7a15adffb525f402"
+    },
+    {
+      "file": "I3_jackknife_donor_pseudovalues.svg",
+      "width_mm": 182.99999983055554,
+      "min_font_pt": 6.0,
+      "editable_text": 92,
+      "png_dpi": 299.9994,
+      "svg_sha256": "2f0acdf2226146ef0f940983209e5a99d7c2ae1ee924c478eae86446b5491df2",
+      "png_sha256": "44b7ca2ae0422b4baea55c575587aace73d785a68b0b09cde1ccdcc8542c9ce0"
+    },
+    {
+      "file": "I4_donor_paired_loss_improvement.svg",
+      "width_mm": 182.99999983055554,
+      "min_font_pt": 6.0,
+      "editable_text": 161,
+      "png_dpi": 299.9994,
+      "svg_sha256": "951324c11c529358b6fd7cd667fe48f3882b07ace2698f244071ae33def138ff",
+      "png_sha256": "ac5ebb37999305073b241a45399160ca6454f8c8265c402dfafc8d5f7347b5e7"
+    },
+    {
+      "file": "I5_inference_agreement.svg",
+      "width_mm": 182.99999983055554,
+      "min_font_pt": 6.0,
+      "editable_text": 73,
+      "png_dpi": 299.9994,
+      "svg_sha256": "3439f5e0255d21c47a9fee8f538a1329e0330e0c715ab9faef2badfea1c5e140",
+      "png_sha256": "3dd94e7864e8cc73d5624397c9cc9d4c7d49031b605e0c1b6594ed289694e34d"
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_panels": [
+    {
+      "figure": "I1_delta_inference_comparison",
+      "panel": 1,
+      "pass": true,
+      "review": "Stored 95% CI endpoints and centers, zero lines, target labels and full ranges checked."
+    },
+    {
+      "figure": "I1_delta_inference_comparison",
+      "panel": 2,
+      "pass": true,
+      "review": "Stored 95% CI endpoints and centers, zero lines, target labels and full ranges checked."
+    },
+    {
+      "figure": "I1_delta_inference_comparison",
+      "panel": 3,
+      "pass": true,
+      "review": "Stored 95% CI endpoints and centers, zero lines, target labels and full ranges checked."
+    },
+    {
+      "figure": "I2_residual_inference_comparison",
+      "panel": 1,
+      "pass": true,
+      "review": "Negative residual R\u00b2 preserved; unreliable fibroblast BCa explicitly omitted and labeled."
+    },
+    {
+      "figure": "I2_residual_inference_comparison",
+      "panel": 2,
+      "pass": true,
+      "review": "Negative residual R\u00b2 preserved; unreliable fibroblast BCa explicitly omitted and labeled."
+    },
+    {
+      "figure": "I2_residual_inference_comparison",
+      "panel": 3,
+      "pass": true,
+      "review": "Negative residual R\u00b2 preserved; unreliable fibroblast BCa explicitly omitted and labeled."
+    },
+    {
+      "figure": "I3_jackknife_donor_pseudovalues",
+      "panel": 1,
+      "pass": true,
+      "review": "All 19 donor pseudovalues visible; original estimate reference and donor index mapping checked."
+    },
+    {
+      "figure": "I3_jackknife_donor_pseudovalues",
+      "panel": 2,
+      "pass": true,
+      "review": "All 19 donor pseudovalues visible; original estimate reference and donor index mapping checked."
+    },
+    {
+      "figure": "I3_jackknife_donor_pseudovalues",
+      "panel": 3,
+      "pass": true,
+      "review": "All 19 donor pseudovalues visible; original estimate reference and donor index mapping checked."
+    },
+    {
+      "figure": "I3_jackknife_donor_pseudovalues",
+      "panel": 4,
+      "pass": true,
+      "review": "All 19 donor pseudovalues visible; original estimate reference and donor index mapping checked."
+    },
+    {
+      "figure": "I3_jackknife_donor_pseudovalues",
+      "panel": 5,
+      "pass": true,
+      "review": "All 19 donor pseudovalues visible; original estimate reference and donor index mapping checked."
+    },
+    {
+      "figure": "I3_jackknife_donor_pseudovalues",
+      "panel": 6,
+      "pass": true,
+      "review": "All 19 donor pseudovalues visible; original estimate reference and donor index mapping checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 1,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 2,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 3,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 4,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 5,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 6,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 7,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 8,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 9,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 10,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 11,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I4_donor_paired_loss_improvement",
+      "panel": 12,
+      "pass": true,
+      "review": "All 19 frozen donor observations retained in each panel; SSE/MAE units, full ranges and gain signs checked."
+    },
+    {
+      "figure": "I5_inference_agreement",
+      "panel": 1,
+      "pass": true,
+      "review": "All method/target cells checked against source classifications; unreliable BCa NA and sensitivity labels readable."
+    },
+    {
+      "figure": "I5_inference_agreement",
+      "panel": 2,
+      "pass": true,
+      "review": "All method/target cells checked against source classifications; unreliable BCa NA and sensitivity labels readable."
+    }
+  ],
+  "nature_source_validator_exceptions": {
+    "PDF": "Explicit user policy; SVG used for editable text and glyph audit",
+    "TIFF_600dpi": "Predeclared SVG+300dpiPNG contract; no submission TIFF requested",
+    "width_heuristic": "Actual exported SVG width verified at183mm",
+    "DEMO_DATA": "Random generator occurs only in verification of declared balanced draws; no synthetic plotting data.",
+    "UNCERTAINTY_ENCODING": "I1/I2 draw exact stored95%CI endpoints manually; I3/I4 show deterministic per-donor observations, not aggregate uncertainties."
+  },
+  "visual_review_completed_at_utc": "2026-10-03T08:40:24.507682+00:00"
+}

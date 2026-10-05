@@ -1,0 +1,10 @@
+numpy==2.4.6
+pandas==3.0.6
+pyarrow==25.0.1
+h5py==3.16.0
+Pillow==12.3.0
+tifffile==2026.3.3
+imagecodecs==2026.3.6
+opencv-python-headless==5.0.0.93
+openslide-bin==4.0.1.2
+openslide-python==1.4.6

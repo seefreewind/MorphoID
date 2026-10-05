@@ -1,0 +1,77 @@
+source_file: scripts/phase0d_color_shortcut_audit.py
+source_sha256: a6c2d3259b8721431e7bf0715abb2cd4b8a2d5f9fa6c1f28ad5afe26d21ef331
+repository_HEAD: 7cf29be2125fd83b0eb952b9e81b16b5d20ed004
+source_tracked_at_HEAD: false
+exact_source_commit: UNTRACKED; HEAD does not attest source content
+functions:
+- load_image
+- aggregate_feature
+- extract_one
+feature_names:
+- rgb_r_mean
+- rgb_r_sd
+- rgb_g_mean
+- rgb_g_sd
+- rgb_b_mean
+- rgb_b_sd
+- hed_hematoxylin_mean
+- hed_hematoxylin_sd
+- hed_eosin_mean
+- hed_eosin_sd
+- hed_dab_mean
+- hed_dab_sd
+- brightness_mean
+- brightness_sd
+- saturation_mean
+- saturation_sd
+- rgb_r_hist_0
+- rgb_r_hist_1
+- rgb_r_hist_2
+- rgb_r_hist_3
+- rgb_r_hist_4
+- rgb_r_hist_5
+- rgb_r_hist_6
+- rgb_r_hist_7
+- rgb_g_hist_0
+- rgb_g_hist_1
+- rgb_g_hist_2
+- rgb_g_hist_3
+- rgb_g_hist_4
+- rgb_g_hist_5
+- rgb_g_hist_6
+- rgb_g_hist_7
+- rgb_b_hist_0
+- rgb_b_hist_1
+- rgb_b_hist_2
+- rgb_b_hist_3
+- rgb_b_hist_4
+- rgb_b_hist_5
+- rgb_b_hist_6
+- rgb_b_hist_7
+grid_um: 150.0
+scale_um_per_px: 0.2125
+stride_px: 8
+sampling_origin: whole-slide pixel (0,0); NOT crop-local stride
+histogram: min(int(rgb_float32*8),7), 8 bins; counts normalized by nonblack count
+rgb: float32 / dtype maximum, clipped [0,1]
+HED: skimage.color.rgb2hed, exact imported function
+brightness: max(R,G,B)
+saturation: (max-min)/max; zero max gives 0
+valid_pixel: max RGB > 0.02
+NaN_policy: 'no valid pixels: means/SD/hist bins explicitly NaN via divide where counts>0'
+crop_definition: D5 global 150um grid bin based on floor(pixel*0.2125/150); Phikon
+  rounding bounds separately audited
+library_versions:
+  numpy: 1.26.4
+  pandas: 2.3.3
+  scikit_image: 0.24.0
+  tifffile: 2024.8.30
+original_D5_size_bytes: 3034260
+positive_control_rtol: 1.0e-12
+positive_control_atol: 1.0e-12
+original_D5_rows: 12260
+original_D5_columns: 50
+region_key_unique: true
+repair_code_path: results/phase1/phase1d_r/run_repair_audit.py
+repair_code_sha256: c2f1fddb237ad000b3c4f25e5d2f94f3e477f8c8a37c887e627f72cde1881160
+repair_code_commit: UNTRACKED; not a committed code snapshot

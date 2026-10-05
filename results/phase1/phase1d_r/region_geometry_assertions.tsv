@@ -1,0 +1,12 @@
+assertion	pass
+sample_id identity	True
+donor_id identity	True
+region_x identity	True
+region_y identity	True
+full_crop_in_bounds identity	True
+x0_px frozen grid rounding	True
+y0_px frozen grid rounding	True
+x1_px_exclusive frozen grid rounding	True
+y1_px_exclusive frozen grid rounding	True
+150um physical FOV	True
+matrix region identifiers match sample and zero-origin grid	True

@@ -1,0 +1,13 @@
+target	target_class	n_donors	n_sections	n_regions	median_target_lineage_cells	minimum_cells
+"epithelial__injury"	"PRIMARY"	19	26	3227	34	20
+"epithelial__transitional_epithelial"	"SECONDARY_WITHIN_LINEAGE"	19	26	3227	34	20
+"fibroblast__fibroblast_activation"	"PRIMARY"	19	26	4879	28	20
+"fibroblast__myofibroblast"	"SECONDARY_WITHIN_LINEAGE"	19	26	4879	28	20
+"macrophage__inflammatory"	"PRIMARY"	19	26	2664	28	20
+"macrophage__profibrotic"	"SECONDARY_WITHIN_LINEAGE"	19	26	2664	28	20
+"broad__EMT_transitional_epithelial"	"SECONDARY_BROAD"	19	26	12260	84	1
+"broad__ECM_remodeling"	"SECONDARY_BROAD"	19	26	12260	84	1
+"broad__IFN_response"	"SECONDARY_BROAD"	19	26	12260	84	1
+"broad__inflammatory_response"	"SECONDARY_BROAD"	19	26	12260	84	1
+"broad__cytotoxicity"	"SECONDARY_BROAD"	19	26	12260	84	1
+"broad__fibrosis_myofibroblast"	"SECONDARY_BROAD"	19	26	12260	84	1

@@ -1,0 +1,8 @@
+{
+  "results/phase1/tables/table2_primary_model_performance.tsv": "23567942fafca93702a80b83bfa6ca7265cb45f8a4ee3fbcc575228e424abf64",
+  "results/phase1/tables/table3_crossfit_residual_performance.tsv": "a066a369f9527f0b060126db539dbbc348a4b90078c060261a6ca7018c8656db",
+  "results/phase1/tables/table4_shortcut_stress_test.tsv": "389e9681b33279b3498a17a1eaa5bdea63d93acb47ee3a7d43d6b7cf02153ae4",
+  "results/phase0/phase0d/color_shortcut_metrics.tsv": "f8890ddf9ccb899f9f6e705c76510d1739635dc09e9a5cfb3ae95b17631fbbc4",
+  "results/phase0/phase0d/coordinate_shortcut_metrics.tsv": "1cbecd3f28963188b51437a9c8e7604e3105c7e0eaf7e1cfcb01cc1275efb5b1",
+  "results/phase0/phase0d/composition_disease_coupling.tsv": "d3883943639128aa48fcf21c5f9f2a96ee1b11bc3ae1a15487d0131016d87e77"
+}

@@ -1,0 +1,21 @@
+name: morphoid
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - pandas==3.0.6
+      - pyarrow==25.0.1
+      - h5py==3.16.0
+      - Pillow==12.3.0
+      - tifffile==2026.3.3
+      - imagecodecs==2026.3.6
+      - numcodecs==0.16.2
+      - opencv-python-headless==5.0.0.93
+      - requests==2.32.5
+      - aicspylibczi==4.0.1
+      - openpyxl==3.1.5
+      - openslide-bin==4.0.1.2
+      - openslide-python==1.4.6

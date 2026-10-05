@@ -1,0 +1,30 @@
+primary_estimand: DeltaR2_morph
+formula: R2(C + N + Z + X) - R2(C + N + Z)
+outcome_Y: gene_expression_or_predefined_molecular_program
+C:
+  definition: ground_truth_cell_composition
+N:
+  definition: ground_truth_neighborhood_composition
+  primary_radius_um: 150
+  sensitivity_radii_um: [100, 200]
+Z:
+  primary_spatial_covariates: [normalized_x, normalized_y]
+  disease_adjusted_estimand: include_disease_status
+  sensitivity_only: [affected_status, TMA, run]
+X: frozen_pathology_morphology_embedding
+morphology_unit_um: 150
+outer_validation: donor_held_out
+same_donor_crosses_folds: false
+inference_unit: donor_id
+primary_uncertainty: donor_level_bootstrap
+microregion_level_bootstrap_allowed: false
+residual_analysis:
+  required: true
+  procedure: outer_fold_cross_fitted
+  full_data_residualization_allowed: false
+preprocessing:
+  primary: raw_author_registered_HE
+  sensitivity: training_donor_fit_Macenko
+  color_only_and_grayscale_controls: mandatory
+selection_and_hyperparameter_tuning: nested_donor_level_CV
+phase1_execution: not_started_requires_separate_human_authorization

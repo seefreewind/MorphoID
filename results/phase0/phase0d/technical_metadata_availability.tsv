@@ -1,0 +1,4 @@
+variable	status	basis
+acquisition_date	UNAVAILABLE_PER_SAMPLE	GEO upload time is not image acquisition time
+scanner_per_image	UNAVAILABLE_PER_IMAGE	scanner stated only at publication-level methods; TIFF EXIF does not establish per-image device
+technical_batch_id	UNREPORTED	TMA/run/instrument retained as documented proxies

@@ -1,0 +1,16 @@
+{
+  "verdict": "MANUSCRIPT_READY_WITH_QUALIFICATIONS",
+  "frozen_files_checked": 3118,
+  "scientific_files_unchanged": 3116,
+  "authorized_administrative_changes": 2,
+  "unexpected_changes": 0,
+  "prior_status_snapshots": "SHA256 match",
+  "registry_records": 10981,
+  "main_figures": 6,
+  "supplement_figures": 12,
+  "main_tables": 3,
+  "package_manifest_files": 63,
+  "local_links": "all exist",
+  "new_modeling": false,
+  "next_action": "HUMAN_MANUSCRIPT_REVIEW"
+}

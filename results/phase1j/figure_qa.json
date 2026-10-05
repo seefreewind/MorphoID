@@ -1,0 +1,45 @@
+{
+  "backend": "python",
+  "visual_panels_inspected": 7,
+  "figures": [
+    {
+      "figure": "J1_precision_projection",
+      "panels": 6,
+      "visual_review": "PASS_AFTER_J1_FOOTER_SPACING_REVISION",
+      "width_mm": 183,
+      "PNG_dimensions": [
+        2161,
+        1677
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "editable_SVG": true,
+      "min_configured_font_pt": 6.5
+    },
+    {
+      "figure": "J2_candidate_feasibility",
+      "panels": 1,
+      "visual_review": "PASS_AFTER_J1_FOOTER_SPACING_REVISION",
+      "width_mm": 183,
+      "PNG_dimensions": [
+        2161,
+        1842
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "editable_SVG": true,
+      "min_configured_font_pt": 6.5
+    }
+  ],
+  "static_source_preflight": "RAW_VALIDATOR_NOT_READY_FORMAT_EXCEPTIONS_DOCUMENTED",
+  "resolved_exceptions": [
+    "PDF omitted by explicit user output preference; editable SVG verified",
+    "PNG300 planning export satisfies declared contract; TIFF600 not requested",
+    "Static width parser misreads 183/25.4; actual SVG and raster independently verify 183mm"
+  ],
+  "publication_submission_status": "PLANNING_ARTIFACTS_NOT_A_JOURNAL_SUBMISSION_PACKAGE"
+}

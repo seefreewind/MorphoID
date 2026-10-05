@@ -1,0 +1,10 @@
+target	analysis_stratum	n_donors	n_sections	n_regions	median_lineage_cells	min_lineage_cells	primary_minimum_lineage_cells
+epithelial_transitional	POOLED	19	26	3219	34.0	20	20
+epithelial_transitional	PF_ONLY	13	19	2474	35.0	20	20
+epithelial_transitional	DISEASE_ADJUSTED	19	26	3219	34.0	20	20
+fibroblast_myofibroblast	POOLED	19	26	4869	28.0	20	20
+fibroblast_myofibroblast	PF_ONLY	13	19	4384	29.0	20	20
+fibroblast_myofibroblast	DISEASE_ADJUSTED	19	26	4869	28.0	20	20
+macrophage_profibrotic	POOLED	19	26	2661	28.0	20	20
+macrophage_profibrotic	PF_ONLY	13	19	2117	28.0	20	20
+macrophage_profibrotic	DISEASE_ADJUSTED	19	26	2661	28.0	20	20

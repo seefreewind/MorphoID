@@ -1,0 +1,22 @@
+primary:
+  image: author_registered_HE
+  color_space: raw_RGB
+  normalization: none
+  patch_unit_um: 150
+  grid_origin: fixed_image_origin_zero
+  orientation: identity_as_author_registered
+  fit_from_heldout_donor: false
+sensitivity:
+  - name: Macenko
+    parameters: {alpha_percentile: 1, beta_od_threshold: 0.15}
+    fit_reference: training_donors_only_within_each_outer_fold
+    target_stain_matrix: donor_equal_weighted_median_of_training_section_stain_vectors
+    target_concentration_percentiles: donor_equal_weighted_median_of_training_section_99th_percentiles
+    apply_to: heldout_donors_after_fit
+    heldout_statistics_used_for_fit: false
+  - name: grayscale
+    conversion: fixed_luminance_Y_0.2126R_0.7152G_0.0722B
+shortcut_controls:
+  - raw_color_only
+  - grayscale_only
+selection_rule: freeze_before_any_Phase1_performance_comparison

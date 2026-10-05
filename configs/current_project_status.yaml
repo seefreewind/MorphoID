@@ -1,0 +1,35 @@
+project: MorphoID
+project_status: STOP_FINITE_DONOR_LIMITATION_ACCEPTED
+phase0d_status: PASS_PHASE0D_WITH_CONFOUNDING_QUALIFICATION
+vannan_status: ADMITTED_PRIMARY_REPLACEMENT_COHORT
+vannan_frozen_sections_audited: 28
+vannan_frozen_sections_admitted: 26
+vannan_independent_donors: 19
+primary_morphology_unit_um: 150
+single_cell_or_nucleus_morphology: NOT_VALIDATED
+permanent_exclusions:
+  VUILD105MA1: FIXED_COORDINATE_SUPPORT_FAILURE
+  VUILD48LA1: FIXED_COORDINATE_SUPPORT_FAILURE
+historical_nonblocking_hold:
+  GSE311609_L8: HOLD_AUTHOR_ALIGNMENT_REQUIRED
+phase1_authorized: YES
+phase1_status: HOLD_MODEL_INSTABILITY
+phase1_required_qualifications:
+  - PF-only analysis
+  - disease-adjusted estimand
+  - donor-held-out validation and donor-level uncertainty
+  - training-donor-only Macenko sensitivity
+  - raw color-only and grayscale controls
+  - no microregion-level primary bootstrap
+
+phase1h_status: HOLD_INFERENCE_INSTABILITY
+phase1i_status: HOLD_FINITE_DONOR_PRECISION
+phase2_status: MANUSCRIPT_READY_WITH_QUALIFICATIONS
+primary_discovery_analysis: FROZEN
+finite_donor_precision_limitation: ACCEPTED
+external_validation_available: NO
+external_validation_authorized: NO
+augmentation_available: NO
+augmentation_authorized: NO
+further_computational_rescue_authorized: NO
+next_action: HUMAN_MANUSCRIPT_REVIEW

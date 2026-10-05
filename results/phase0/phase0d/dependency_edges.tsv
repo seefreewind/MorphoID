@@ -1,0 +1,421 @@
+source_type	source_id	target_type	target_id	edge_type	evidence
+donor	THD0008	core	THD0008	donor_to_core	GEO/author crosswalk
+core	THD0008	section	THD0008	core_to_section	frozen sample crosswalk
+section	THD0008	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	THD0008	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	THD0008	TMA	TMA3	section_to_TMA	GEO sample metadata
+section	THD0008	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	THD0008	registered_HE	GSM7990532_THD0008_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	THD0008	disease	Control	section_to_disease	GEO sample metadata
+section	THD0008	affected_status	control	section_to_affected_status	GEO sample metadata
+section	THD0008	institution	TGen	section_to_institution	GEO sample metadata
+section	THD0008	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	THD0008	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	THD0008	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	THD0008	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	THD0008	technical_batch	3|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	THD0011	core	THD0011	donor_to_core	GEO/author crosswalk
+core	THD0011	section	THD0011	core_to_section	frozen sample crosswalk
+section	THD0011	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	THD0011	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	THD0011	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	THD0011	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	THD0011	registered_HE	GSM7990533_THD0011_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	THD0011	disease	Control	section_to_disease	GEO sample metadata
+section	THD0011	affected_status	control	section_to_affected_status	GEO sample metadata
+section	THD0011	institution	TGen	section_to_institution	GEO sample metadata
+section	THD0011	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	THD0011	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	THD0011	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	THD0011	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	THD0011	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	TILD117	core	TILD117MA1	donor_to_core	GEO/author crosswalk
+core	TILD117MA1	section	TILD117MA1	core_to_section	frozen sample crosswalk
+section	TILD117MA1	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	TILD117MA1	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	TILD117MA1	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	TILD117MA1	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	TILD117MA1	registered_HE	GSM7990534_TILD117MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	TILD117MA1	disease	PF	section_to_disease	GEO sample metadata
+section	TILD117MA1	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	TILD117MA1	institution	TGen	section_to_institution	GEO sample metadata
+section	TILD117MA1	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	TILD117MA1	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	TILD117MA1	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	TILD117MA1	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	TILD117MA1	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	TILD117	core	TILD117LA	donor_to_core	GEO/author crosswalk
+core	TILD117LA	section	TILD117LA	core_to_section	frozen sample crosswalk
+section	TILD117LA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	TILD117LA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	TILD117LA	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	TILD117LA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	TILD117LA	registered_HE	GSM7990535_TILD117LA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	TILD117LA	disease	PF	section_to_disease	GEO sample metadata
+section	TILD117LA	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	TILD117LA	institution	TGen	section_to_institution	GEO sample metadata
+section	TILD117LA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	TILD117LA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	TILD117LA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	TILD117LA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	TILD117LA	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	TILD175	core	TILD175MA	donor_to_core	GEO/author crosswalk
+core	TILD175MA	section	TILD175MA	core_to_section	frozen sample crosswalk
+section	TILD175MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	TILD175MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	TILD175MA	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	TILD175MA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	TILD175MA	registered_HE	GSM7990536_TILD175MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	TILD175MA	disease	PF	section_to_disease	GEO sample metadata
+section	TILD175MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	TILD175MA	institution	TGen	section_to_institution	GEO sample metadata
+section	TILD175MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	TILD175MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	TILD175MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	TILD175MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	TILD175MA	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUHD069	core	VUHD069	donor_to_core	GEO/author crosswalk
+core	VUHD069	section	VUHD069	core_to_section	frozen sample crosswalk
+section	VUHD069	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUHD069	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUHD069	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUHD069	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUHD069	registered_HE	GSM7990537_VUHD069_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUHD069	disease	Control	section_to_disease	GEO sample metadata
+section	VUHD069	affected_status	control	section_to_affected_status	GEO sample metadata
+section	VUHD069	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUHD069	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUHD069	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUHD069	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUHD069	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUHD069	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUHD095	core	VUHD095	donor_to_core	GEO/author crosswalk
+core	VUHD095	section	VUHD095	core_to_section	frozen sample crosswalk
+section	VUHD095	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUHD095	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUHD095	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUHD095	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUHD095	registered_HE	GSM7990538_VUHD095_registered_HE.tiff.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUHD095	disease	Control	section_to_disease	GEO sample metadata
+section	VUHD095	affected_status	control	section_to_affected_status	GEO sample metadata
+section	VUHD095	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUHD095	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUHD095	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUHD095	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUHD095	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUHD095	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUHD113	core	VUHD113	donor_to_core	GEO/author crosswalk
+core	VUHD113	section	VUHD113	core_to_section	frozen sample crosswalk
+section	VUHD113	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUHD113	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUHD113	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUHD113	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUHD113	registered_HE	GSM7990539_VUHD113_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUHD113	disease	Control	section_to_disease	GEO sample metadata
+section	VUHD113	affected_status	control	section_to_affected_status	GEO sample metadata
+section	VUHD113	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUHD113	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUHD113	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUHD113	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUHD113	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUHD113	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUHD116	core	VUHD116A	donor_to_core	GEO/author crosswalk
+core	VUHD116A	section	VUHD116A	core_to_section	frozen sample crosswalk
+section	VUHD116A	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUHD116A	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUHD116A	TMA	TMA1	section_to_TMA	GEO sample metadata
+section	VUHD116A	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUHD116A	registered_HE	GSM7990540_VUHD116A_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUHD116A	disease	Control	section_to_disease	GEO sample metadata
+section	VUHD116A	affected_status	control	section_to_affected_status	GEO sample metadata
+section	VUHD116A	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUHD116A	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUHD116A	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUHD116A	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUHD116A	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUHD116A	technical_batch	1|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUHD116	core	VUHD116B	donor_to_core	GEO/author crosswalk
+core	VUHD116B	section	VUHD116B	core_to_section	frozen sample crosswalk
+section	VUHD116B	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUHD116B	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUHD116B	TMA	TMA1	section_to_TMA	GEO sample metadata
+section	VUHD116B	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUHD116B	registered_HE	GSM7990541_VUHD116B_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUHD116B	disease	Control	section_to_disease	GEO sample metadata
+section	VUHD116B	affected_status	control	section_to_affected_status	GEO sample metadata
+section	VUHD116B	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUHD116B	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUHD116B	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUHD116B	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUHD116B	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUHD116B	technical_batch	1|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD102	core	VUILD102MA	donor_to_core	GEO/author crosswalk
+core	VUILD102MA	section	VUILD102MA	core_to_section	frozen sample crosswalk
+section	VUILD102MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD102MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD102MA	TMA	TMA1	section_to_TMA	GEO sample metadata
+section	VUILD102MA	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD102MA	registered_HE	GSM7990542_VUILD102MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD102MA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD102MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD102MA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD102MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD102MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD102MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD102MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD102MA	technical_batch	1|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD102	core	VUILD102LA	donor_to_core	GEO/author crosswalk
+core	VUILD102LA	section	VUILD102LA	core_to_section	frozen sample crosswalk
+section	VUILD102LA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD102LA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD102LA	TMA	TMA1	section_to_TMA	GEO sample metadata
+section	VUILD102LA	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD102LA	registered_HE	GSM7990543_VUILD102LA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD102LA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD102LA	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	VUILD102LA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD102LA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD102LA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD102LA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD102LA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD102LA	technical_batch	1|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD104	core	VUILD104MA2	donor_to_core	GEO/author crosswalk
+core	VUILD104MA2	section	VUILD104MA2	core_to_section	frozen sample crosswalk
+section	VUILD104MA2	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD104MA2	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD104MA2	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUILD104MA2	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD104MA2	registered_HE	GSM7990544_VUILD104MA2_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD104MA2	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD104MA2	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD104MA2	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD104MA2	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD104MA2	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD104MA2	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD104MA2	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD104MA2	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD104	core	VUILD104MA1	donor_to_core	GEO/author crosswalk
+core	VUILD104MA1	section	VUILD104MA1	core_to_section	frozen sample crosswalk
+section	VUILD104MA1	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD104MA1	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD104MA1	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUILD104MA1	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD104MA1	registered_HE	GSM7990545_VUILD104MA1_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD104MA1	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD104MA1	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD104MA1	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD104MA1	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD104MA1	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD104MA1	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD104MA1	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD104MA1	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD105	core	VUILD105MA2	donor_to_core	GEO/author crosswalk
+core	VUILD105MA2	section	VUILD105MA2	core_to_section	frozen sample crosswalk
+section	VUILD105MA2	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD105MA2	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD105MA2	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUILD105MA2	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD105MA2	registered_HE	GSM7990546_VUILD105MA2_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD105MA2	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD105MA2	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD105MA2	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD105MA2	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD105MA2	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD105MA2	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD105MA2	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD105MA2	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD105	core	VUILD105MA1	donor_to_core	GEO/author crosswalk
+core	VUILD105MA1	section	VUILD105MA1	core_to_section	frozen sample crosswalk
+section	VUILD105MA1	registration_status	FAIL	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD105MA1	primary_inclusion	NO	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD105MA1	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUILD105MA1	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD105MA1	registered_HE	GSM7990547_VUILD105MA1_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD105MA1	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD105MA1	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD105MA1	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD105MA1	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD105MA1	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD105MA1	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD105MA1	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD105MA1	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD106	core	VUILD106MA	donor_to_core	GEO/author crosswalk
+core	VUILD106MA	section	VUILD106MA	core_to_section	frozen sample crosswalk
+section	VUILD106MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD106MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD106MA	TMA	TMA3	section_to_TMA	GEO sample metadata
+section	VUILD106MA	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD106MA	registered_HE	GSM7990548_VUILD106MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD106MA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD106MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD106MA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD106MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD106MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD106MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD106MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD106MA	technical_batch	3|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD107	core	VUILD107MA	donor_to_core	GEO/author crosswalk
+core	VUILD107MA	section	VUILD107MA	core_to_section	frozen sample crosswalk
+section	VUILD107MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD107MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD107MA	TMA	TMA1	section_to_TMA	GEO sample metadata
+section	VUILD107MA	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD107MA	registered_HE	GSM7990549_VUILD107MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD107MA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD107MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD107MA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD107MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD107MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD107MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD107MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD107MA	technical_batch	1|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD110	core	VUILD110LA	donor_to_core	GEO/author crosswalk
+core	VUILD110LA	section	VUILD110LA	core_to_section	frozen sample crosswalk
+section	VUILD110LA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD110LA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD110LA	TMA	TMA3	section_to_TMA	GEO sample metadata
+section	VUILD110LA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	VUILD110LA	registered_HE	GSM7990550_VUILD110LA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD110LA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD110LA	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	VUILD110LA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD110LA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD110LA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD110LA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD110LA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD110LA	technical_batch	3|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD115	core	VUILD115MA	donor_to_core	GEO/author crosswalk
+core	VUILD115MA	section	VUILD115MA	core_to_section	frozen sample crosswalk
+section	VUILD115MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD115MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD115MA	TMA	TMA3	section_to_TMA	GEO sample metadata
+section	VUILD115MA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	VUILD115MA	registered_HE	GSM7990551_VUILD115MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD115MA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD115MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD115MA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD115MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD115MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD115MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD115MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD115MA	technical_batch	3|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD48	core	VUILD48LA2	donor_to_core	GEO/author crosswalk
+core	VUILD48LA2	section	VUILD48LA2	core_to_section	frozen sample crosswalk
+section	VUILD48LA2	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD48LA2	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD48LA2	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUILD48LA2	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD48LA2	registered_HE	GSM7990552_VUILD48LA2_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD48LA2	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD48LA2	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	VUILD48LA2	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD48LA2	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD48LA2	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD48LA2	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD48LA2	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD48LA2	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD48	core	VUILD48LA1	donor_to_core	GEO/author crosswalk
+core	VUILD48LA1	section	VUILD48LA1	core_to_section	frozen sample crosswalk
+section	VUILD48LA1	registration_status	FAIL	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD48LA1	primary_inclusion	NO	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD48LA1	TMA	TMA2	section_to_TMA	GEO sample metadata
+section	VUILD48LA1	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD48LA1	registered_HE	GSM7990553_VUILD48LA1_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD48LA1	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD48LA1	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	VUILD48LA1	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD48LA1	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD48LA1	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD48LA1	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD48LA1	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD48LA1	technical_batch	2|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD78	core	VUILD78MA	donor_to_core	GEO/author crosswalk
+core	VUILD78MA	section	VUILD78MA	core_to_section	frozen sample crosswalk
+section	VUILD78MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD78MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD78MA	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	VUILD78MA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	VUILD78MA	registered_HE	GSM7990554_VUILD78MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD78MA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD78MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD78MA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD78MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD78MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD78MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD78MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD78MA	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD78	core	VUILD78LA	donor_to_core	GEO/author crosswalk
+core	VUILD78LA	section	VUILD78LA	core_to_section	frozen sample crosswalk
+section	VUILD78LA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD78LA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD78LA	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	VUILD78LA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	VUILD78LA	registered_HE	GSM7990555_VUILD78LA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD78LA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD78LA	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	VUILD78LA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD78LA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD78LA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD78LA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD78LA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD78LA	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD91	core	VUILD91MA	donor_to_core	GEO/author crosswalk
+core	VUILD91MA	section	VUILD91MA	core_to_section	frozen sample crosswalk
+section	VUILD91MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD91MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD91MA	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	VUILD91MA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	VUILD91MA	registered_HE	GSM7990556_VUILD91MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD91MA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD91MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD91MA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD91MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD91MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD91MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD91MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD91MA	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD91	core	VUILD91LA	donor_to_core	GEO/author crosswalk
+core	VUILD91LA	section	VUILD91LA	core_to_section	frozen sample crosswalk
+section	VUILD91LA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD91LA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD91LA	TMA	TMA4	section_to_TMA	GEO sample metadata
+section	VUILD91LA	run	Run2	section_to_run	GEO sample metadata + author code audit
+section	VUILD91LA	registered_HE	GSM7990557_VUILD91LA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD91LA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD91LA	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	VUILD91LA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD91LA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD91LA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD91LA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD91LA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD91LA	technical_batch	4|2|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD96	core	VUILD96MA	donor_to_core	GEO/author crosswalk
+core	VUILD96MA	section	VUILD96MA	core_to_section	frozen sample crosswalk
+section	VUILD96MA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD96MA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD96MA	TMA	TMA1	section_to_TMA	GEO sample metadata
+section	VUILD96MA	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD96MA	registered_HE	GSM7990558_VUILD96MA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD96MA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD96MA	affected_status	more_affected	section_to_affected_status	GEO sample metadata
+section	VUILD96MA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD96MA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD96MA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD96MA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD96MA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD96MA	technical_batch	1|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported
+donor	VUILD96	core	VUILD96LA	donor_to_core	GEO/author crosswalk
+core	VUILD96LA	section	VUILD96LA	core_to_section	frozen sample crosswalk
+section	VUILD96LA	registration_status	REGISTRATION_PASS_WITH_QUALIFICATION	section_to_registration_status	Phase 0C-VR frozen scorecard
+section	VUILD96LA	primary_inclusion	YES	section_to_primary_inclusion	frozen cohort inclusion rule
+section	VUILD96LA	TMA	TMA1	section_to_TMA	GEO sample metadata
+section	VUILD96LA	run	Run1	section_to_run	GEO sample metadata + author code audit
+section	VUILD96LA	registered_HE	GSM7990559_VUILD96LA_registered_HE.tif.gz	section_to_registered_HE	GSM-specific registered H&E
+section	VUILD96LA	disease	PF	section_to_disease	GEO sample metadata
+section	VUILD96LA	affected_status	less_affected	section_to_affected_status	GEO sample metadata
+section	VUILD96LA	institution	Vanderbilt	section_to_institution	GEO sample metadata
+section	VUILD96LA	scanner	Leica Biosystems Aperio CS2 (publication-level method; not per-image EXIF)	section_to_scanner	publication-level scanner; no per-image EXIF
+section	VUILD96LA	panel	Xenium human lung base panel PD_277 (246 genes) + custom CVEVZD (97 genes); 343 total	section_to_panel	author-corrected 343-gene panel
+section	VUILD96LA	instrument	XETG00048	section_to_instrument	GEO sample metadata
+section	VUILD96LA	analysis_version	xenium-1.1.0.2	section_to_analysis_version	GEO sample metadata
+section	VUILD96LA	technical_batch	1|1|XETG00048	section_to_technical_batch	TMA/run/instrument proxy; no separate batch ID reported

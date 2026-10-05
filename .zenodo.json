@@ -1,0 +1,45 @@
+{
+  "title": "MorphoID: frozen conditional identifiability audit code and derived data",
+  "description": "Frozen H&E\u2013Xenium pulmonary fibrosis pilot: donor-held-out model ladder, cross-fitted residual analysis, shortcut controls and finite-donor uncertainty. Includes original code, registered configurations, derived de-identified regional features and embeddings, full-precision result/source tables and vector figures. No upstream raw images or checkpoint weights are redistributed. Negative results and invalid inference entries are preserved; no external validation is claimed. Licensing is mixed: original code is MIT; Phikon-v2-derived embeddings and results are subject to the Owkin non-commercial research license and its share-alike terms, reproduced in licenses/OWKIN_PHIKON_V2_LICENSE.pdf. Public access does not authorize commercial use of these outputs.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Lin, Da",
+      "affiliation": "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China"
+    },
+    {
+      "name": "Chen, Ying",
+      "affiliation": "Wenzhou Medical University, Wenzhou, China"
+    },
+    {
+      "name": "Liu, Yue",
+      "affiliation": "Wenzhou Medical University, Wenzhou, China"
+    },
+    {
+      "name": "Zhang, Yu",
+      "affiliation": "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "other-nc",
+  "keywords": [
+    "MorphoID",
+    "histology",
+    "spatial transcriptomics",
+    "identifiability",
+    "shortcut learning",
+    "pulmonary fibrosis"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/seefreewind/MorphoID",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250346",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ]
+}

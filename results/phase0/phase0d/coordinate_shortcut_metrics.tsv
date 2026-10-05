@@ -1,0 +1,6 @@
+target	n_regions	n_donors	n_classes	balanced_accuracy	macro_auroc	bootstrap_95ci_low	bootstrap_95ci_high	unseen_test_classes	folds	group	features	pathology_categories_scored	excluded_rare_category_count
+TMA	12260	19	4	0.5868814170641155	0.8342559588970327	0.492608295900118	0.7022693631508905		5	donor_id	x_um;y_um;x_norm;y_norm;width_um;height_um		
+run	12260	19	2	0.6174287344579954	0.6307681617350573	0.433338039640526	0.8022095894040645		5	donor_id	x_um;y_um;x_norm;y_norm;width_um;height_um		
+disease	12260	19	2	0.5520244802044002	0.6029984053591039	0.3287187407125669	0.7275784338761843		5	donor_id	x_um;y_um;x_norm;y_norm;width_um;height_um		
+affected	12260	19	3	0.3137878346238308	0.41366008234662327	0.18005720489461882	0.40961930297877325		5	donor_id	x_um;y_um;x_norm;y_norm;width_um;height_um		
+category	7124	19	18	0.04810060554037831	0.4859109520929041	0.026413132738457523	0.10329430837089823		5	donor_id	x_um;y_um;x_norm;y_norm;width_um;height_um	advanced_remodeling;airway_smooth_muscle;artery;epithelial_detachment;fibroblastic_focus;fibrosis;goblet_cell_metaplasia;hyperplastic_aec;large_airway;microscopic_honeycombing;minimally_remodeled_alveoli;mixed_inflammation;muscularized_artery;normal_alveoli;remodeled_epithelium;severe_fibrosis;small_airway;venule	7.0

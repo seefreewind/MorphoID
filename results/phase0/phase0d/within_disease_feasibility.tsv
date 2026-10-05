@@ -1,0 +1,33 @@
+disease	independent_donors	sections	150um_regions	cells	median_cells_per_region	classification	lineage
+control	6	7	2392	180398	62.5	FEASIBLE	
+control	5	7	745	26692	31.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	epithelial
+control	6	7	1089	39624	34.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	endothelial
+control	5	7	485	13181	25.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	fibroblast
+control	2	5	56	1751	25.0	WEAK_CELL_SUPPORT	smooth_muscle_pericyte
+control	5	7	257	6587	24.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	macrophage
+control	1	5	39	949	24.0	WEAK_CELL_SUPPORT	monocyte
+control	2	5	118	3102	24.0	WEAK_CELL_SUPPORT	neutrophil
+control	0	4	7	156	22.0	WEAK_CELL_SUPPORT	CD4_T
+control	0	0	0	0	0.0	WEAK_CELL_SUPPORT	CD8_T
+control	0	0	0	0	0.0	WEAK_CELL_SUPPORT	B
+control	0	0	0	0	0.0	WEAK_CELL_SUPPORT	plasma
+control	0	0	0	0	0.0	WEAK_CELL_SUPPORT	mast
+control	1	1	10	220	21.5	WEAK_CELL_SUPPORT	other_immune
+control	0	0	0	0	0.0	WEAK_CELL_SUPPORT	other_stromal
+control	0	0	0	0	0.0	WEAK_CELL_SUPPORT	other
+pulmonary_fibrosis	13	19	9868	917344	88.0	FEASIBLE	
+pulmonary_fibrosis	13	19	2482	122424	35.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	epithelial
+pulmonary_fibrosis	13	19	2187	61203	26.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	endothelial
+pulmonary_fibrosis	13	19	4394	136914	29.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	fibroblast
+pulmonary_fibrosis	12	19	688	22358	27.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	smooth_muscle_pericyte
+pulmonary_fibrosis	12	18	1714	57795	28.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	macrophage
+pulmonary_fibrosis	0	4	13	326	25.0	WEAK_CELL_SUPPORT	monocyte
+pulmonary_fibrosis	3	9	60	1859	27.0	WEAK_CELL_SUPPORT	neutrophil
+pulmonary_fibrosis	9	16	843	36463	33.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	CD4_T
+pulmonary_fibrosis	8	14	359	10945	27.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	CD8_T
+pulmonary_fibrosis	6	13	274	18230	40.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	B
+pulmonary_fibrosis	7	12	563	18686	28.0	CELL_FEASIBLE_10_REGIONS_PER_DONOR	plasma
+pulmonary_fibrosis	1	3	14	314	22.5	WEAK_CELL_SUPPORT	mast
+pulmonary_fibrosis	4	11	100	2568	23.0	WEAK_CELL_SUPPORT	other_immune
+pulmonary_fibrosis	0	1	3	72	23.0	WEAK_CELL_SUPPORT	other_stromal
+pulmonary_fibrosis	0	0	0	0	0.0	WEAK_CELL_SUPPORT	other

@@ -1,0 +1,151 @@
+[
+  {
+    "figure": "F2",
+    "panel": "c",
+    "row": 0,
+    "estimate": 0.939102564102564,
+    "low": 0.8388888888888889,
+    "high": 1.0
+  },
+  {
+    "figure": "F2",
+    "panel": "c",
+    "row": 1,
+    "estimate": 0.9166666666666669,
+    "low": 0.75,
+    "high": 1.0
+  },
+  {
+    "figure": "F2",
+    "panel": "c",
+    "row": 2,
+    "estimate": 0.5645833333333333,
+    "low": 0.3789434523809524,
+    "high": 0.7291666666666666
+  },
+  {
+    "figure": "F2",
+    "panel": "c",
+    "row": 3,
+    "estimate": 0.5868814170641155,
+    "low": 0.492608295900118,
+    "high": 0.7022693631508905
+  },
+  {
+    "figure": "F3",
+    "target": "epithelial_injury",
+    "values": [
+      0.2470299303856977,
+      0.2559340386160293,
+      0.2434773201000711,
+      0.2700594070938859,
+      0.2909158950104775
+    ]
+  },
+  {
+    "figure": "F3",
+    "target": "fibroblast_activation",
+    "values": [
+      0.0783312901924555,
+      -0.1549588526845997,
+      -0.4437073119805621,
+      0.3707836197482562,
+      0.4378578537109939
+    ]
+  },
+  {
+    "figure": "F3",
+    "target": "macrophage_inflammatory",
+    "values": [
+      -0.0817162038607064,
+      0.1753548957023087,
+      0.1551250579439241,
+      -0.174031457436244,
+      -0.0814413724054807
+    ]
+  },
+  {
+    "figure": "F4",
+    "metric": "deltaR2_morphology",
+    "target": "epithelial_injury",
+    "estimate": 0.0474385749104063,
+    "low": -0.1092351367830776,
+    "high": 0.203666797170199
+  },
+  {
+    "figure": "F4",
+    "metric": "deltaR2_morphology",
+    "target": "fibroblast_activation",
+    "estimate": 0.8815651656915561,
+    "low": 0.0060804709936154,
+    "high": 2.2208982822890277
+  },
+  {
+    "figure": "F4",
+    "metric": "deltaR2_morphology",
+    "target": "macrophage_inflammatory",
+    "estimate": -0.2365664303494049,
+    "low": -0.4603472971083421,
+    "high": -0.0066136364055845
+  },
+  {
+    "figure": "F4",
+    "metric": "residual_R2",
+    "target": "epithelial_injury",
+    "estimate": -0.162988712421026,
+    "low": -0.3763084020332292,
+    "high": 0.0038535157265251
+  },
+  {
+    "figure": "F4",
+    "metric": "residual_R2",
+    "target": "fibroblast_activation",
+    "estimate": 0.0363693302995379,
+    "low": -0.1390663331268575,
+    "high": 0.0684732546422427
+  },
+  {
+    "figure": "F4",
+    "metric": "residual_R2",
+    "target": "macrophage_inflammatory",
+    "estimate": -0.1194535085914587,
+    "low": -0.4428047023995438,
+    "high": -0.015653619881067
+  },
+  {
+    "figure": "F5",
+    "target": "epithelial_injury",
+    "values": [
+      0.2909158950104775,
+      0.1837894103628505,
+      0.2372259613920572,
+      0.0337858642178002,
+      -0.0375846744832835
+    ],
+    "M2_baseline": 0.2434773201000711
+  },
+  {
+    "figure": "F5",
+    "target": "fibroblast_activation",
+    "values": [
+      0.4378578537109939,
+      0.3695145200779888,
+      0.3725140489918396,
+      -0.0560402640066497,
+      -0.2337550447919041
+    ],
+    "M2_baseline": -0.4437073119805621
+  },
+  {
+    "figure": "F5",
+    "target": "macrophage_inflammatory",
+    "values": [
+      -0.0814413724054807,
+      0.034093842479754,
+      -0.1481810543654083,
+      -0.1564318427164992,
+      -0.0764847594197475
+    ],
+    "M2_baseline": 0.1551250579439241
+  }
+]

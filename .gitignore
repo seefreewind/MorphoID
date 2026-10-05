@@ -1,0 +1,13 @@
+._*
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+*.tif
+*.tiff
+*.ndpi
+*.czi
+*.rds
+*.RDS
+model_cache/
+tiff_work/

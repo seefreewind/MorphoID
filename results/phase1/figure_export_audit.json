@@ -1,0 +1,77 @@
+[
+  {
+    "figure": "figure1_model_ladder",
+    "SVG_width": "517.566094pt",
+    "SVG_height": "253.952906pt",
+    "editable_text_elements": 34,
+    "min_font_pt": 6.0,
+    "PNG_dimensions": [
+      2157,
+      1059
+    ],
+    "PNG_dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "figure2_morphology_increment",
+    "SVG_width": "517.733438pt",
+    "SVG_height": "295.76625pt",
+    "editable_text_elements": 20,
+    "min_font_pt": 6.0,
+    "PNG_dimensions": [
+      2157,
+      1233
+    ],
+    "PNG_dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "figure3_crossfit_residual",
+    "SVG_width": "517.626094pt",
+    "SVG_height": "221.90174pt",
+    "editable_text_elements": 42,
+    "min_font_pt": 6.0,
+    "PNG_dimensions": [
+      2158,
+      925
+    ],
+    "PNG_dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "figure4_shortcut_stress_test",
+    "SVG_width": "517.524453pt",
+    "SVG_height": "372.774375pt",
+    "editable_text_elements": 61,
+    "min_font_pt": 5.5,
+    "PNG_dimensions": [
+      2156,
+      1553
+    ],
+    "PNG_dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "figure5_donor_heterogeneity",
+    "SVG_width": "517.853828pt",
+    "SVG_height": "415.32825pt",
+    "editable_text_elements": 83,
+    "min_font_pt": 5.5,
+    "PNG_dimensions": [
+      2158,
+      1731
+    ],
+    "PNG_dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+]

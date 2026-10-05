@@ -1,0 +1,52 @@
+{
+  "mandatory_strata": [
+    "POOLED",
+    "PF_ONLY",
+    "DISEASE_ADJUSTED"
+  ],
+  "confirmatory_stratum": "DISEASE_ADJUSTED",
+  "delta_BH_family": "three primary disease-adjusted delta morphology tests",
+  "residual_BH_family": "three primary disease-adjusted residual R2 tests; separate family",
+  "p_method": "2000 donor bootstrap two-sided sign-tail approximation with +1 smoothing; not permutation",
+  "optional_control_only": "not executed; mandatory three strata prioritized",
+  "scientific_inputs_changed": false,
+  "script_sha256": {
+    "scripts/phase1e_g_fit_models.py": "4eda0bdc6b0e57d327cabee5b6ce79ebaf2060cc98975bb57ea910b12b97216d",
+    "scripts/phase1_report.py": "5cbcb68faf8d5801a342d8d56aeebfef3a28517cc7c12870d4650e49d6982eb7",
+    "scripts/phase1_figures.py": "7777eb642382007160c6a00f4f8c54a4368a6ab6f7cb96f23cbf8e50f1d36b22"
+  },
+  "ancillary_input_sha256": {
+    "configs/phase1_common_universe.yaml": "4d13754bc4d59fce25bc7275ad6b60791bb97a7fde441526be5420e38a341958",
+    "results/phase1/macenko_fold_target_parameters.tsv": "c634e3165b04b823738bdfda4c90117acba15330735136ca188848860a3737a2",
+    "results/phase1/macenko_section_source_parameters.tsv": "8d86b1f4b779372d299c3fe12a3106e8f64948f482cd8b7c76cdc5ed7b1e5f13",
+    "results/phase0/phase0d/d5_color_feature_specification.tsv": "36be0edaa19732a083df953bd631d2e37330216307d26349c6a4c7a13175e321"
+  },
+  "secondary_programs": [
+    "epithelial_transitional",
+    "fibroblast_myofibroblast",
+    "macrophage_profibrotic"
+  ],
+  "final_script_sha256": {
+    "scripts/phase1e_g_fit_models.py": "4eda0bdc6b0e57d327cabee5b6ce79ebaf2060cc98975bb57ea910b12b97216d",
+    "scripts/phase1_secondary_fit_models.py": "e17c4d38fa85ea5806480edf612c32e5171113e3469a8c2cb1f458e2ea003a0d",
+    "scripts/phase1_report.py": "89fa3565984f8e6e75d256d3f72f90d3db10d19cfa17c037000716a4692309d0",
+    "scripts/phase1_figures.py": "4c7571457e858e90a022f565fbbc3de080f10c573019b6d1657c083520113100",
+    "scripts/phase1_result_audit.py": "64525a4a51e65c8e24520483f9023bbbcd47998137b3690df9db586680477167"
+  },
+  "changes_during_QA": [
+    "alpha grid comparison permits TSV round-trip rtol=1e-12",
+    "exclude AppleDouble ._ checkpoint metadata",
+    "figure intervals preserved; residual full-range symlog display; crowded annotation/glyph corrections"
+  ],
+  "report_review_correction": {
+    "before_sha256": "511f15dd33784b02efd0ab056265c2b057349a1cc785833955e4668240a7d313",
+    "after_sha256": "b65d5d9540587b16ba22cc1331b0c73f26469fcfde34abe72a60963aedf09499",
+    "changes": [
+      "valid absolute Markdown links with spaces",
+      "NO_GO policy matches conservative HOLD implementation",
+      "readable assertion block and heading spacing"
+    ]
+  },
+  "completion": "PHASE1E_G_COMPLETE_VERIFIED_STOPPED",
+  "additional_analysis_authorized_after_completion": false
+}

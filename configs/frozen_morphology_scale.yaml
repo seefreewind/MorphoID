@@ -1,0 +1,8 @@
+primary_morphology_unit: 150um_microregion
+sensitivity_units_um: [100, 200]
+prohibited_primary_units:
+  - single_nucleus_crop
+  - single_cell_crop
+  - nucleus_shape_prediction
+  - cell_level_morphology_embedding
+rationale: single_cell_or_nucleus_level_registration_precision_not_validated

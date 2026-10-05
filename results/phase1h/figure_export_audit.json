@@ -1,0 +1,42 @@
+[
+  {
+    "file": "H1_leave_one_donor_influence.svg",
+    "width_mm": 182.99999983055554,
+    "editable_text_elements": 79,
+    "minimum_font_pt": 6.0,
+    "svg_sha256": "725b3346c4f8281e29249fd784bc25442e2787383655c61fd815485a17657d60",
+    "png_sha256": "a658fa45c00bd4a4bf599109457f825927fa35e8bd017ce32e3f5739fdfc3d52"
+  },
+  {
+    "file": "H2_m2_support_donor_error.svg",
+    "width_mm": 182.99999983055554,
+    "editable_text_elements": 51,
+    "minimum_font_pt": 5.5,
+    "svg_sha256": "f6d96424caefba5d8bc3fab947d1bd40071292c94c0c659fd08683692eee1129",
+    "png_sha256": "d2094a1bbc0a1fbf965be24c12de4279b92c9f88b2f7a4df0708be2adb89e02b"
+  },
+  {
+    "file": "H3_repeated_fold_delta.svg",
+    "width_mm": 182.99999983055554,
+    "editable_text_elements": 33,
+    "minimum_font_pt": 6.0,
+    "svg_sha256": "189369db11f9dfbfc9abf480c425272acb124caa6720ab4b432e6b216854cdfa",
+    "png_sha256": "42f255e58f2ec5b2b42f6993f0416a032b4754a1540a3d7dcd851a3b458f79bf"
+  },
+  {
+    "file": "H4_repeated_fold_residual.svg",
+    "width_mm": 182.99999983055554,
+    "editable_text_elements": 35,
+    "minimum_font_pt": 6.0,
+    "svg_sha256": "ee439e9b5b78afcd2ce42cb7a747844f98bb3046670cd448d0806bce7ade24d7",
+    "png_sha256": "9774b1987135555e8e00da048ba74c3ce3b568e4bbce84236ddc7256916b2a79"
+  },
+  {
+    "file": "H5_paired_m2_m4_error.svg",
+    "width_mm": 182.99999983055554,
+    "editable_text_elements": 51,
+    "minimum_font_pt": 5.5,
+    "svg_sha256": "a931bc4ccce0151a219595a24c6f449bc4f5c7d1caf07f11ee7654c6dad8bac9",
+    "png_sha256": "dda61a6305908ebeeb6cf0f689e2d9869b60a28ad0972b4b52c5897d90d6a2db"
+  }
+]

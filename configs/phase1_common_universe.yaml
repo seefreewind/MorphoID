@@ -1,0 +1,38 @@
+protocol_amendment_id: PHASE1D_R2
+rule: ZERO_VALID_IMAGE_PIXELS_AFTER_FROZEN_BLACK_FILTER
+introduced_before_phase1_modeling: true
+deltaR2_seen_before_rule: false
+residual_results_seen_before_rule: false
+model_performance_seen_before_rule: false
+original_D5_modified: false
+imputation_used: false
+common_universe_file: results/phase1/phase1d_r2/final_common_phase1_region_universe.tsv
+common_universe_sha256: 0d944e4cae613f5e2353e9ebd970d119dda7c39739c1a567405c7ff77e66340e
+n_regions_total: 12260
+n_regions_excluded_coordinate: 77
+n_regions_excluded_zero_image: 39
+n_regions_exclusion_overlap: 0
+n_regions_excluded_unique: 116
+n_regions_common: 12144
+n_donors_common: 19
+n_sections_common: 26
+original_D5_path: results/phase0/phase0d/registered_he_region_color_features.tsv.gz
+original_D5_sha256: a17ef3770a411ac4916f87171d2da0441b7f878ba1f595911c6105eabdf7e2cb
+membership_applies_to: all M0-M4 and directly compared shortcut/sensitivity/residual
+  arms; targets gated afterward
+black_threshold: 0.02
+stride_px: 8
+physical_grid_um: 150
+fixed_scale_um_per_px: 0.2125
+sampling_origin: original D5 whole-slide zero-origin sampling; not a new crop-local
+  sampling origin
+prior_hold: PHASE1D_R=TECHNICAL_HOLD_D5_REPAIR
+PHASE1E_G_AUTHORIZED: true
+date: 2026-10-02 Asia/Shanghai
+rule_source_file: scripts/phase0d_color_shortcut_audit.py
+rule_source_sha256: a6c2d3259b8721431e7bf0715abb2cd4b8a2d5f9fa6c1f28ad5afe26d21ef331
+rule_implementation_file: results/phase1/phase1d_r2/run_common_universe_audit.py
+rule_implementation_sha256: 6ea2f41e709e4545433c01caafd8f8b11a84d8a0d6af70f5074fadfece92c951
+independent_valid_pixel_count_file: results/phase1/phase1d_r2/all_region_image_validity.tsv
+independent_valid_pixel_count_sha256: 768c30c2a3eae423fe9ccde80e225b270e2615e7a7eb59cb3fd2f56a55cef665
+historical_hold_report_preserved: true

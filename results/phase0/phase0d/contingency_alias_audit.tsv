@@ -1,0 +1,13 @@
+pair	unit	n_rows	n_left_levels	n_right_levels	cramers_v_bias_corrected	normalized_mutual_information	left_to_right_deterministic	right_to_left_deterministic	exact_deterministic_alias	association_class	notes
+donor__by__TMA	unique_donor	19	19	4		0.6355135379810568	True	False	False	DONOR_UNIT_DETERMINISTIC	Donor identity is the grouping unit; one row per donor makes Cramer's V uninformative. Directional determinism/NMI are retained.
+donor__by__run	unique_donor	19	19	2		0.37551262497616933	True	False	False	DONOR_UNIT_DETERMINISTIC	Donor identity is the grouping unit; one row per donor makes Cramer's V uninformative. Directional determinism/NMI are retained.
+donor__by__disease	unique_donor	19	19	2		0.3495731219541903	True	False	False	DONOR_UNIT_DETERMINISTIC	Donor identity is the grouping unit; one row per donor makes Cramer's V uninformative. Directional determinism/NMI are retained.
+disease__by__TMA	section	26	2	4	0.0	0.03620935985642607	False	False	False	LOW	Disease is donor-constant; outer folds group all sections by donor.
+disease__by__run	section	26	2	2	0.0	0.023224588941925067	False	False	False	LOW	Disease is donor-constant; outer folds group all sections by donor.
+disease__by__collection_center	section	26	2	2	0.0	0.01818079074809623	False	False	False	LOW	Disease is donor-constant; outer folds group all sections by donor.
+disease__by__affected_status	section	26	2	3	0.9789450103725609	0.707805267506192	False	True	False	HIGH_ASSOCIATION	Disease is donor-constant; outer folds group all sections by donor.
+TMA__by__run	section	26	4	2	0.8908201872772114	0.5835312450295856	False	False	False	HIGH_ASSOCIATION	Bias-corrected Cramer's V on frozen admitted sections/donors.
+TMA__by__collection_center	section	26	4	2	0.4553474166406018	0.20551033439948269	False	False	False	MODERATE	Bias-corrected Cramer's V on frozen admitted sections/donors.
+TMA__by__scanner	section	26	4	1		0.0	True	False	False	NOT_INFORMATIVE_NO_VARIATION	Bias-corrected Cramer's V on frozen admitted sections/donors.
+donor__by__section_count	unique_donor	19	19	2		0.36535796938477666	True	False	False	DONOR_UNIT_DETERMINISTIC	Donor identity is the grouping unit; one row per donor makes Cramer's V uninformative. Directional determinism/NMI are retained.
+TMA__by__acquisition_date	section	26	4	0			False	False	False	UNAVAILABLE_NOT_IN_SOURCE_METADATA	Per-sample acquisition date was not found; GEO upload timestamps are not acquisition dates.
