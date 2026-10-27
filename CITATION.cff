@@ -1,21 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite this frozen software and derived-data release when reusing it."
-title: "MorphoID conditional identifiability audit"
-version: 1.0.0
+message: "Please cite the version-specific Zenodo record for this package."
+title: "MorphoID: clean reproducibility code and regional data"
 type: software
-repository-code: "https://github.com/seefreewind/MorphoID"
+version: 2.0.0
 authors:
-  - family-names: Lin
-    given-names: Da
-    affiliation: "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China"
-  - family-names: Chen
-    given-names: Ying
-    affiliation: "Wenzhou Medical University, Wenzhou, China"
-  - family-names: Liu
-    given-names: Yue
-    affiliation: "Wenzhou Medical University, Wenzhou, China"
-  - family-names: Zhang
-    given-names: Yu
-    affiliation: "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China"
-license: MIT
-doi: 10.5281/zenodo.23150000
+  - name: MorphoID
+repository-code: "https://github.com/seefreewind/MorphoID"

@@ -1,43 +1,37 @@
-# MorphoID
+# MorphoID reproducibility code and frozen workflows
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23150000.svg)](https://doi.org/10.5281/zenodo.23150000)
+This version 2.0.0 clean reproducibility package accompanies the MorphoID conditional identifiability manuscript. It contains original code, frozen configurations, target/fold definitions, source-derived regional inputs, audit metadata, environment records and regeneration instructions. The public code repository is https://github.com/seefreewind/MorphoID. The complete release archive contains the regional data at their original relative paths. Scientific results have not been rerun or altered.
 
-Frozen v1.0.0 archive: https://doi.org/10.5281/zenodo.23150000
+# Phikon-v2 dependency and licensing
 
-MorphoID audits the conditional predictive identifiability of molecular state from registered histology. This frozen research release contains analysis code, derived de-identified regional features, full-precision results and figure source data for the H&E–Xenium pulmonary fibrosis pilot.
+Phikon-v2 is developed by Owkin. Obtain the official model and processor independently and accept the Phikon-v2 Non-Commercial License before local use. Weights and embeddings are not bundled in this default clean package. The extraction wrapper regenerates local embeddings using the unchanged frozen extractor, supplied model files and verified hashes. This package does not grant access to raw data or model weights.
 
-## Frozen scientific scope
+Owkin has provided express written permission for aggregate manuscript results, tables and figures to be published under the journal's applicable publication licence. Embeddings, if separately distributed, remain Results under the same Phikon-v2 terms for non-commercial use, including section 3(c) ShareAlike; MIT does not apply to them. Excluding embeddings here is a packaging decision. Private correspondence is not included.
 
-26 admitted sections, 19 independent donors (6 control, 13 pulmonary fibrosis); 12,144 common eligible microregions before target-specific cell-support gates. The morphology unit is 150 μm. The three targets are epithelial injury, fibroblast activation and macrophage inflammatory programs. Single-cell molecular inference and external validation have not been established.
+Cite Filiot A, Jacob P, Mac Kain A, Saillard C (2024), Phikon-v2, A large and public feature extractor for biomarker prediction, arXiv:2409.09173, https://doi.org/10.48550/arXiv.2409.09173.
 
-The model ladder compares M0=Z, M1=C+Z, M2=C+N+Z, M3=X+Z and M4=C+N+Z+X. Donor-held-out prediction, training-side donor-cross-fitted residuals, independently retrained PF-only analysis and stain/color/coordinate controls are preserved. Negative R² and invalid finite-donor inference entries must remain visible. Direction recurrence across dependent partitions does not establish donor-level precision or causal identifiability.
+## Reproduction flow
 
-## Repository layout
+1. Obtain GEO GSE250346 source data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250346 and retain the source terms and access receipts.
+2. Obtain official Owkin Phikon-v2 and its processor from https://huggingface.co/owkin/phikon-v2/tree/2ae989a9c40cffaa27f0a6cb29cc94d1d6f9a5fd.
+3. Accept the applicable Owkin licence directly with the provider.
+4. Verify frozen revision 2ae989a9c40cffaa27f0a6cb29cc94d1d6f9a5fd and checkpoint SHA256 261ae680fa699b3b951597fd57aa19c02ef735805acb104b93af69b36d928569; verify processor/config hashes in docs/PHIKON_REGENERATION.md.
+5. Map the historical raw-data paths to a separate writable study copy; reconstruct prerequisite matrices, crop audits and hash-baseline inputs. Regenerate embeddings locally using scripts/regenerate_phikon_embeddings.py with --model-dir, --revision and --accepted-provider-terms.
+6. Run the frozen common-universe analysis and Phase1E–1J sequence documented in docs/PHIKON_REGENERATION.md. Preserve all donor folds, independent PF-only fits, negative R² and training-side residual cross-fitting.
+7. Run the original figure and report scripts to regenerate tables and figures locally. The final finite-donor inference limitation remains part of the scientific conclusion.
 
-- scripts/: frozen analysis, inference, reporting and original figure code.
-- configs/: cohort, targets, donor folds, estimands, preprocessing and registered seeds.
-- results/phase1/: processed matrix, color/crop audits, 26 CPU-provenance NPZ embeddings, OOF predictions and primary/residual/control tables.
-- results/phase1h/, phase1i/, phase1j/: stability, omission sensitivity, finite-donor inference and planning/feasibility outputs.
-- results/phase0/phase0d/: nuisance diagnostics and original D5 color features.
-- results/final/master_result_registry.tsv: integrated frozen estimate registry.
-- BIB_FIGURE_TABLE_OPTIMIZATION/: original plotting source and full-precision TSV copies (historical directory name; the repository itself is journal-neutral).
-- BIB_PRESUBMISSION_QC/figures_final/: final vector figure files and provenance.
-- environment/: original declared environment; observed runtime is results/final/observed_runtime.json.
-- manifests/release_files.tsv: original file hashes and byte sizes.
-- docs/: release scope, upstream access and reproducibility instructions.
+A portable end-to-end reproduction has not been executed for this rights update. The adapter only handles the duplicated full_crop_in_bounds merge input in memory after equality validation; scientific extractor bytes, coordinates, row order and estimands remain unchanged. Raw H&E images, expression RDS objects and original access receipts must be obtained/reconstructed by the user.
 
-## Upstream data and encoder
+## License and file inventory
 
-Source spatial data are public at GEO GSE250346: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250346. Download raw data from the original source under its terms. No raw H&E TIFF/NDPI/CZI, upstream RDS or proprietary image copies are included. The official Owkin Phikon-v2 revision is 2ae989a9c40cffaa27f0a6cb29cc94d1d6f9a5fd; checkpoint SHA256 is 261ae680fa699b3b951597fd57aa19c02ef735805acb104b93af69b36d928569. Obtain weights from https://huggingface.co/owkin/phikon-v2 under the provider's terms; weights and RGB crops are not redistributed.
+Read LICENSE_SCOPE.md, LICENSE_CODE, NOTICE_PHIKON_V2.md and PACKAGE_MANIFEST.tsv. Original software is MIT; source-derived regional inputs remain under their source terms. No blanket licence covers third-party data. Aggregate result files and figure assets are not included in this code package. Their absence is a packaging decision after Owkin's permission, not an unresolved article-rights restriction.
 
-## Reproduction
+## Historical release
 
-Inspect frozen results and hashes before any computation. See docs/REPRODUCIBILITY.md for the distinction between result inspection, model reruns from derived features and full source extraction. This release was assembled without running models, resampling or tests. The original declared environment is historical; the observed analysis runtime is the primary execution receipt. Platform-dependent reproduction has not been tested in this release.
+The historical release https://github.com/seefreewind/MorphoID/releases/tag/v1.0.0 and DOI https://doi.org/10.5281/zenodo.23150000 contain 26 section embedding caches. The 2026-10-26 audit found explicit Owkin non-commercial/ShareAlike scope notices, with original code separately MIT: NO MATERIAL LICENSE DEFECT for the embedding licence scope. They remain public and are not deprecated or restricted. This separate clean package is a different, smaller package design; a separate standalone Zenodo record archives this clean package and does not replace the historical record.
 
-## Authors
+Project attribution and archive creator: MorphoID. Funding: none. Competing interests: none.
 
-Da Lin; Ying Chen; Yue Liu; Yu Zhang. Correspondence: Yu Zhang (zhangyu1@wzhealth.com). Affiliations are supplied in CITATION.cff and .zenodo.json. Author order follows the manuscript.
+## Release contents
 
-## Reuse
-
-Original project code is licensed under MIT (LICENSE). Phikon-v2-derived embeddings and result outputs are shared under the Owkin non-commercial research license, including its share-alike conditions (licenses/OWKIN_PHIKON_V2_LICENSE.pdf). These outputs are not granted under CC BY or MIT. Public availability does not remove the upstream restrictions. Raw images and model weights are not redistributed.
+The GitHub working tree contains code, configurations, environment records and documentation. The accompanying `MorphoID-v2.0.0-clean.zip` release asset contains the complete package, including regional analysis inputs and audit tables under `results/`. Extract it before running the workflows. `PACKAGE_MANIFEST.tsv` records SHA256 checksums for all package files except itself. Historical inventory tables retain their original audit scope. No model weights, embeddings, raw tissue images or private correspondence are included.
