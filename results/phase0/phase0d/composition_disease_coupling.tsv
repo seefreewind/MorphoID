@@ -1,0 +1,2 @@
+target	predictors	n_donors	folds	balanced_accuracy	macro_auroc	bootstrap_95ci_low	bootstrap_95ci_high	permutation_replicates	permutation_baseline_mean	permutation_baseline_95pct	permutation_p	interpretation
+disease	ground-truth 15-lineage donor aggregate composition C only	19	5	0.9166666666666667		0.75	1.0	500	0.46541025641025646	0.5897435897435898	0.005988023952095809	composition-disease coupling diagnostic; not expression prediction or causal attribution

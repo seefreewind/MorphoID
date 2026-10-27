@@ -10,7 +10,7 @@ MIT does not cover Owkin Phikon-v2 weights, Hugging Face caches, extracted embed
 
 ## Aggregate outputs
 
-Owkin expressly permits aggregate numerical results, tables and figures in the article under its applicable journal publication licence. That authorization does not assign a repository licence to every derived file or extend MIT to embeddings. This clean code/configuration package excludes aggregate statistical result files and figure assets as a packaging choice. The manuscript retains all original figures and tables unchanged. The final article OA licence remains an author/publisher decision.
+Owkin expressly permits aggregate numerical results, tables and figures in the article under its applicable journal publication licence. That authorization does not assign a repository licence to every derived file or extend MIT to embeddings. Version 2.1.0 includes frozen aggregate numerical tables as scientific evidence. These files are not covered by the code MIT licence and this deposit grants no additional rights to third-party material. The manuscript retains all original figures and tables unchanged. The final article OA licence remains an author/publisher decision.
 
 ## Historical archive
 

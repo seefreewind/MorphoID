@@ -1,13 +1,13 @@
 {
-  "title": "MorphoID: clean reproducibility code and regional data",
+  "title": "MorphoID: frozen results and reproducible manuscript displays",
   "upload_type": "software",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "creators": [
     {
       "name": "MorphoID"
     }
   ],
-  "description": "Frozen MorphoID workflows, configurations, regional analysis inputs and provenance audits. Original code is MIT; source-derived data retain provider terms. No Phikon-v2 weights, embeddings, raw tissue images or private correspondence are bundled. Obtain raw data and the licensed encoder separately; consult LICENSE_SCOPE.md and docs/PHIKON_REGENERATION.md. Portable end-to-end reproduction has not been executed for this packaging update.",
+  "description": "Original MorphoID code, frozen configurations, regional inputs and aggregate frozen result tables. Figure 4, Figure 5 and Table 1 can be regenerated without model fitting using a separately tested display environment. Full historical end-to-end analysis reproduction is not claimed. Original code is MIT; source-derived inputs retain provider terms; aggregate results are not relicensed by this deposit. No model weights, embeddings, raw tissue images or private correspondence are bundled. See LICENSE_SCOPE.md.",
   "keywords": [
     "MorphoID",
     "computational pathology",
